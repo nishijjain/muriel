@@ -1,0 +1,1 @@
+chrome-extension://cjdnfmjmdligcpfcekfmenlhiopehjkd/node_modules/xregexp/xregexp-all.js

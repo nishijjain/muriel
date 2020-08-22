@@ -1,0 +1,1 @@
+chrome-extension://cjdnfmjmdligcpfcekfmenlhiopehjkd/js/base/cs/shortcuts-cs.js

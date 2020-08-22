@@ -1,0 +1,1 @@
+chrome-extension://cjdnfmjmdligcpfcekfmenlhiopehjkd/js/redist/emittery.umd.js

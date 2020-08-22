@@ -1,0 +1,138 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    /* text-align: center; */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+  }
+  
+.navbar ul li {
+    display: inline-block;
+    /* margin-left: 20px;  */
+  }
+  
+.navbar ul li a {
+    text-decoration: none; 
+    color: white;
+    display: block;
+    position: relative;
+  }
+  
+.navbar ul li a::before {
+    content: '';
+    height: 3px;
+    background-color: white;
+    width: 0%;
+    position: absolute;
+    bottom: -25px;
+    transition: all .5s ease;
+  }
+  
+.navbar ul li a:hover::before {
+    width: 100%;
+    left: 0;
+}
+  
+.navbar ul li a.active::before {
+    width: 100%;
+    left: 0;
+}
+
+.navbar-toggler {
+    border-color: #fff;
+}
+
+.nav-item {
+    margin: 0.5rem 0;
+}
+
+.navbar-custom {
+    background-color: #000;
+}
+
+.navbar-custom a {
+    color: white;
+    padding: 3px;
+    margin: 3px 30px;
+}
+
+#carousel {
+    margin-top: 5rem;
+}
+
+#carousel .carousel-caption h5 {
+    padding: 10px;
+    margin-bottom: 450px;
+    color: #000;
+    font-size: 80px;
+}
+
+.left-control, .right-control {
+    font-size: 20px;
+    height: 30px;
+    line-height: 25px;
+    width: 30px;
+}
+
+.about {
+    margin: 50px 25px;
+    line-height: 2;
+}
+
+.about-image {
+    height: 400px;
+    width: 400px;
+    margin: 90px 0 0;
+    box-shadow: 8px 8px rgb(100,100,100);
+}
+
+.heading {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.collections {
+    background-image: url("../images/about-bg.jpg");
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    line-height: 2;
+    padding: 50px 0;
+}
+
+.collections a {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media (max-width: 500px) {
+    .about-image {
+        width: 300px;
+        height: 300px;
+        align-items: center;
+        margin: 0 15px 30px;
+    }
+
+    .about, .collections {
+        font-size: 14px;
+    }
+
+    #carousel .carousel-caption h5 {
+        font-size: 20px;
+    }
+
+    .collections {
+        background-size: cover;
+    }
+}
+
