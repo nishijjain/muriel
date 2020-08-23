@@ -43,7 +43,7 @@ h2 {
     background-color: white;
     width: 0%;
     position: absolute;
-    bottom: -25px;
+    bottom: -22px;
     transition: all .5s ease;
   }
   
@@ -119,7 +119,16 @@ h2 {
 .footer {
     background-color: #212529;
     text-align: center;
-    padding: 20px 50px;
+    padding: 30px 50px;
+}
+
+.fa {
+    color: #fff;
+    margin: 0 10px;
+}
+
+.copyright {
+    padding: 20px 10px 10px;
 }
 
 @media (max-width: 500px) {
@@ -137,6 +146,7 @@ h2 {
     #carousel .carousel-caption h5 {
         font-size: 20px;
     }
+
 }
 
 
