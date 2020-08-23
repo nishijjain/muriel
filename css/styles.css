@@ -39,7 +39,7 @@ h2 {
   
 .navbar ul li a::before {
     content: '';
-    height: 3px;
+    height: 4px;
     background-color: white;
     width: 0%;
     position: absolute;
@@ -52,10 +52,10 @@ h2 {
     left: 0;
 }
   
-.navbar ul li a.active::before {
+/* .navbar ul li a.active::before {
     width: 100%;
     left: 0;
-}
+} */
 
 .navbar-toggler {
     border-color: #fff;
@@ -91,7 +91,7 @@ h2 {
 .about-image {
     height: 400px;
     width: 400px;
-    margin: 90px 0 0;
+    margin: 0px 0 30px;
     box-shadow: 8px 8px rgb(100,100,100);
 }
 
@@ -129,22 +129,33 @@ h2 {
 
 .copyright {
     padding: 20px 10px 10px;
+    text-align: center;
+}
+
+.copyright p.pull-right {
+    float: none !important;
 }
 
 @media (max-width: 500px) {
     .about-image {
         width: 300px;
         height: 300px;
-        align-items: center;
+        text-align: center;
         margin: 0 15px 30px;
     }
 
     .about, .collections {
         font-size: 14px;
+        padding-left: 10px;
     }
 
     #carousel .carousel-caption h5 {
         font-size: 20px;
+    }
+
+    .navbar ul li a:hover::before {
+        width: 0%;
+        left: 0;
     }
 
 }
