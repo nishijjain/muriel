@@ -11,6 +11,16 @@ h2 {
     text-align: center;
 }
 
+.navbar-custom {
+    background-color: #000;
+}
+
+.navbar-custom a {
+    color: white;
+    padding: 0px;
+    margin: 0px 30px;
+}
+
 .navbar ul {
     list-style: none;
   }
@@ -55,18 +65,8 @@ h2 {
     margin: 0.5rem 0;
 }
 
-.navbar-custom {
-    background-color: #000;
-}
-
-.navbar-custom a {
-    color: white;
-    padding: 3px;
-    margin: 3px 30px;
-}
-
 #carousel {
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
 
 #carousel .carousel-caption h5 {
@@ -105,6 +105,7 @@ h2 {
     color: #fff;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: scroll;
     opacity: 0.9;
     line-height: 2;
     padding: 50px 0;
@@ -113,6 +114,12 @@ h2 {
 .collections a {
     text-decoration: none;
     color: #fff;
+}
+
+.footer {
+    background-color: #212529;
+    text-align: center;
+    padding: 20px 50px;
 }
 
 @media (max-width: 500px) {
@@ -130,9 +137,7 @@ h2 {
     #carousel .carousel-caption h5 {
         font-size: 20px;
     }
-
-    .collections {
-        background-size: cover;
-    }
 }
+
+
 
