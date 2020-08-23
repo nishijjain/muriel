@@ -56,10 +56,10 @@ h2 {
     width: 100%;
     left: 0;
 }
-
 .navbar-toggler {
-    border-color: #fff;
-}
+    border: none;
+    outline: none;
+  }
 
 .nav-item {
     margin: 0.5rem 0;
@@ -144,6 +144,10 @@ h2 {
 }
 
 @media (max-width: 500px) {
+    .navbar li:first-child {
+        margin-top: 2rem;
+    }
+
     .about-image, .product-image {
         width: 300px;
         height: 300px;
