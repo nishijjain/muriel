@@ -83,16 +83,16 @@ h2 {
     width: 30px;
 }
 
-.about, .collection, .product, .philosophy {
+.about, .collection, .product, .philosophy, .contact {
     line-height: 2;
     /* margin-bottom: 100px; */
-    padding: 0 0 50px;
+    padding: 5px 0 50px;
 }
 
 .about-image {
     height: 450px;
     width: 450px;
-    margin: 70px 0 0px;
+    margin: 70px 0 0;
     box-shadow: 8px 8px rgb(100,100,100);
 }
 
@@ -114,13 +114,36 @@ h2 {
     background-attachment: fixed;
 }
 
-.collection a {
+.collection a, .product a {
     text-decoration: none;
     color: #fff;
 }
 
-.row > div { 
+.photos {
+    background-color: #2a2c2e;
+    color: #fff;
+}
+
+.photos .row > div { 
     margin-bottom: 30px;
+}
+
+.contact {
+    background-image: url("../images/contact-bg.jpg");
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    line-height: 2;
+    background-attachment: fixed;
+}
+
+.contact p {
+    margin: 0 100px;
+}
+
+form, .address {
+    margin: 50px 0 0;
 }
 
 .footer {
@@ -159,7 +182,12 @@ h2 {
         margin: 0 15px 30px;
     }
 
-    .about, .collection, .product, .philosophy {
+    .photos {
+        text-align: center;
+        padding: 15px;
+    }
+
+    .about, .collection, .product, .philosophy, .contact {
         font-size: 14px;
         padding: 10px;
     }
@@ -173,8 +201,21 @@ h2 {
         left: 0;
     }
 
+    .navbar ul li a.active::before {
+        width: 0%;
+        left: 0;
+    }
+
     .heading {
-        margin: 0px 10px 0;
+        margin: 0px 2px 0;
+    }
+
+    .contact p {
+        margin: 0;
+    }
+
+    form, .address {
+        margin: 10px 0 0;
     }
 
 }
