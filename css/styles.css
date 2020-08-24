@@ -119,6 +119,10 @@ h2 {
     color: #fff;
 }
 
+.row > div { 
+    margin-bottom: 30px;
+}
+
 .footer {
     background-color: #212529;
     text-align: center;
@@ -135,7 +139,7 @@ h2 {
 }
 
 .copyright {
-    padding: 20px 10px 10px;
+    padding: 20px 10px 0px;
     text-align: center;
 }
 
@@ -148,7 +152,7 @@ h2 {
         margin-top: 2rem;
     }
 
-    .about-image, .product-image {
+    .about-image, .product-image, {
         width: 300px;
         height: 300px;
         text-align: center;
