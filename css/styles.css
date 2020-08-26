@@ -70,10 +70,10 @@ h2 {
 }
 
 #carousel .carousel-caption h5 {
-    padding: 10px;
     margin-bottom: 450px;
     color: #000;
-    font-size: 80px;
+    font-size: 36px;
+    font-family: 'Diplomata SC', cursive;
 }
 
 .left-control, .right-control {
@@ -83,7 +83,7 @@ h2 {
     width: 30px;
 }
 
-.about, .collection, .product, .philosophy, .contact {
+.about, .collection, .product, .philosophy, .contact, .col-card {
     line-height: 2;
     /* margin-bottom: 100px; */
     padding: 5px 0 50px;
@@ -120,7 +120,7 @@ h2 {
 }
 
 .photos {
-    background-color: #2a2c2e;
+    background-color: #2b2c2e;
     color: #fff;
 }
 
@@ -170,6 +170,21 @@ form, .address {
     float: none !important;
 }
 
+#cards, #productlist {
+    margin-top: 5rem;
+}
+
+.pro {
+    height: 600px;
+    width: 500px;
+}
+
+.prod-text {
+    /* text-align: center; */
+    padding: 150px 10px;
+    line-height: 2;
+}
+
 @media (max-width: 500px) {
     .navbar li:first-child {
         margin-top: 2rem;
@@ -187,7 +202,7 @@ form, .address {
         padding: 15px;
     }
 
-    .about, .collection, .product, .philosophy, .contact {
+    .about, .collection, .product, .philosophy, .contact, .card-text, .prod p {
         font-size: 14px;
         padding: 10px;
     }
@@ -218,6 +233,15 @@ form, .address {
         margin: 10px 0 0;
     }
 
+    .card {
+        margin: 0 10px 30px;
+    }
+
+    .pro {
+        align-items: center;
+        height: 100px;
+        width: 100px;
+    }
 }
 
 html {
