@@ -72,7 +72,7 @@ h2 {
 #carousel .carousel-caption h5 {
     margin-bottom: 450px;
     color: #000;
-    font-size: 36px;
+    font-size: 80px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -146,10 +146,6 @@ form, .address {
     margin: 50px 0 0;
 }
 
-/* #footer {
-    margin-top: 10px;
-} */
-
 .footer {
     background-color: #212529;
     text-align: center;
@@ -181,20 +177,19 @@ form, .address {
 .pro {
     height: 600px;
     width: 500px;
+    margin: 0 0 30px;
 }
 
 .prod-text {
-    /* text-align: center; */
-    padding: 150px 10px;
+    padding: 150px 80px;
     line-height: 2;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 992px) {
     .small {
         display: none;
     }
 }
-
 
 @media screen and (max-width: 600px) {
     .navbar li:first-child {
@@ -252,12 +247,12 @@ form, .address {
         display: none;
     }
 
-    /* .pro {
+    .pro {
         width: 300px;
         height: 300px;
         text-align: center;
         margin: 0 25px 30px;
-    } */
+    }
 }
 
 html {
