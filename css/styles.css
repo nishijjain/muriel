@@ -73,7 +73,7 @@ h2 {
     margin-bottom: 450px;
     color: #000;
     font-size: 36px;
-    font-family: 'Diplomata SC', cursive;
+    font-family: 'Poppins', sans-serif;
 }
 
 .left-control, .right-control {
@@ -146,6 +146,10 @@ form, .address {
     margin: 50px 0 0;
 }
 
+/* #footer {
+    margin-top: 10px;
+} */
+
 .footer {
     background-color: #212529;
     text-align: center;
@@ -185,12 +189,19 @@ form, .address {
     line-height: 2;
 }
 
+@media (min-width: 700px) {
+    .small {
+        display: none;
+    }
+}
+
+
 @media (max-width: 500px) {
     .navbar li:first-child {
         margin-top: 2rem;
     }
 
-    .about-image, .product-image {
+    .about-image, .product-image, {
         width: 300px;
         height: 300px;
         text-align: center;
@@ -202,7 +213,7 @@ form, .address {
         padding: 15px;
     }
 
-    .about, .collection, .product, .philosophy, .contact, .card-text, .prod p {
+    .about, .collection, .product, .philosophy, .contact, .card-text, .prod-text {
         font-size: 14px;
         padding: 10px;
     }
@@ -237,10 +248,15 @@ form, .address {
         margin: 0 10px 30px;
     }
 
+    .large {
+        display: none;
+    }
+
     .pro {
-        align-items: center;
-        height: 100px;
-        width: 100px;
+        width: 300px;
+        height: 300px;
+        text-align: center;
+        margin: 0 25px 30px;
     }
 }
 
