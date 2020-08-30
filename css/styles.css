@@ -196,7 +196,7 @@ form, .address {
 }
 
 
-@media (max-width: 500px) {
+@media (min-width: 300px and max-width: 500px) {
     .navbar li:first-child {
         margin-top: 2rem;
     }
@@ -245,19 +245,19 @@ form, .address {
     }
 
     .card {
-        margin: 0 10px 30px;
+        margin: 0 15px 30px;
     }
 
     .large {
         display: none;
     }
 
-    .pro {
+    /* .pro {
         width: 300px;
         height: 300px;
         text-align: center;
         margin: 0 25px 30px;
-    }
+    } */
 }
 
 html {
