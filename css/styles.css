@@ -196,7 +196,7 @@ form, .address {
 }
 
 
-@media (min-width: 300px and max-width: 500px) {
+@media screen and (max-width: 600px) {
     .navbar li:first-child {
         margin-top: 2rem;
     }
