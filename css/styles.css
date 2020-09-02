@@ -16,36 +16,36 @@ h2 {
 }
 
 .navbar-custom a {
-    color: white;
+    color: #fff;
     padding: 0px;
     margin: 0px 30px;
 }
 
 .navbar ul {
     list-style: none;
-  }
+}
   
 .navbar ul li {
     display: inline-block;
     /* margin-left: 20px;  */
-  }
+}
   
 .navbar ul li a {
     text-decoration: none; 
-    color: white;
+    color: #fff;
     display: block;
     position: relative;
-  }
+}
   
 .navbar ul li a::before {
     content: '';
     height: 4px;
-    background-color: white;
+    background-color: #fff;
     width: 0%;
     position: absolute;
     bottom: -22px;
     transition: all .5s ease;
-  }
+}
   
 .navbar ul li a:hover::before {
     width: 100%;
@@ -74,6 +74,8 @@ h2 {
     color: #000;
     font-size: 80px;
     font-family: 'Poppins', sans-serif;
+    /* position: absolute; */
+    font-weight: bolder;
 }
 
 .left-control, .right-control {
@@ -185,11 +187,73 @@ form, .address {
     line-height: 2;
 }
 
-@media (min-width: 992px) {
+html {
+    scroll-behavior: smooth;
+}
+ 
+ @media screen and (min-width: 768px) {
+    
+/*
+    .about-image, .product-image {
+        width: 300px;
+        height: 300px;
+        text-align: center;
+        margin: 0 15px 30px;
+    }
+
+    .photos {
+        text-align: center;
+        padding: 15px;
+    }
+
+    .about, .collection, .product, .philosophy, .contact, .card-text, .prod-text {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    #carousel .carousel-caption h5 {
+        font-size: 40px;
+    }
+
+    .navbar ul li a:hover::before {
+        width: 0%;
+        left: 0;
+    }
+
+    .navbar ul li a.active::before {
+        width: 0%;
+        left: 0;
+    }
+
+    .heading {
+        margin: 0px 2px 0;
+    }
+
+    .contact p {
+        margin: 0;
+    }
+
+    form, .address {
+        margin: 10px 0 0;
+    }
+
+    .card {
+        margin: 0 20px 30px;
+    }
+
+    .pro {
+        width: 300px;
+        height: 300px;
+        text-align: center;
+        margin: 0 25px 30px;
+    }*/
+
     .small {
         display: none;
     }
-}
+
+
+} 
 
 @media screen and (max-width: 600px) {
     .navbar li:first-child {
@@ -254,10 +318,3 @@ form, .address {
         margin: 0 25px 30px;
     }
 }
-
-html {
-    scroll-behavior: smooth;
-}
-
-
-
