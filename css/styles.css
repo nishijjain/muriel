@@ -70,7 +70,7 @@ h2 {
 }
 
 #carousel .carousel-caption h5 {
-    margin-bottom: 450px;
+    /* margin-bottom: 380px; */
     color: #000;
     font-size: 80px;
     font-family: 'Poppins', sans-serif;
@@ -85,7 +85,7 @@ h2 {
     width: 30px;
 }
 
-.about, .collection, .product, .philosophy, .contact, .col-card {
+.about, .collection, .product, .philosophy, .contact {
     line-height: 2;
     /* margin-bottom: 100px; */
     padding: 5px 0 50px;
@@ -172,94 +172,50 @@ form, .address {
     float: none !important;
 }
 
-#cards, #productlist {
+#col-cards, #productlist {
     margin-top: 5rem;
 }
 
-.pro {
-    height: 600px;
-    width: 500px;
-    margin: 0 0 30px;
+.prod .card, .card {
+    width: 20rem;
+    margin-bottom: 30px;
+} 
+
+.show_hide, .show_hide:hover {
+    color: #000;
+    text-decoration: none;
+    font-weight: bolder;
+    text-transform: uppercase;
 }
 
-.prod-text {
-    padding: 150px 80px;
-    line-height: 2;
+.prod .card .card-text {
+    text-align: justify;
+}
+
+.card .card-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 17px;
 }
 
 html {
     scroll-behavior: smooth;
 }
  
- @media screen and (min-width: 768px) {
-    
-/*
-    .about-image, .product-image {
-        width: 300px;
-        height: 300px;
-        text-align: center;
-        margin: 0 15px 30px;
-    }
 
-    .photos {
-        text-align: center;
-        padding: 15px;
-    }
-
-    .about, .collection, .product, .philosophy, .contact, .card-text, .prod-text {
-        font-size: 16px;
-        padding: 10px;
-    }
-
-    #carousel .carousel-caption h5 {
-        font-size: 40px;
-    }
-
-    .navbar ul li a:hover::before {
-        width: 0%;
-        left: 0;
-    }
-
-    .navbar ul li a.active::before {
-        width: 0%;
-        left: 0;
-    }
-
-    .heading {
-        margin: 0px 2px 0;
-    }
-
-    .contact p {
-        margin: 0;
-    }
-
-    form, .address {
-        margin: 10px 0 0;
-    }
-
-    .card {
-        margin: 0 20px 30px;
-    }
-
-    .pro {
-        width: 300px;
-        height: 300px;
-        text-align: center;
-        margin: 0 25px 30px;
-    }*/
-
-    .small {
-        display: none;
-    }
-
-
-} 
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
     .navbar li:first-child {
         margin-top: 2rem;
     }
 
+    /* .navbar ul li a {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: left;
+      } */
+
     .about-image, .product-image {
         width: 300px;
         height: 300px;
@@ -272,7 +228,7 @@ html {
         padding: 15px;
     }
 
-    .about, .collection, .product, .philosophy, .contact, .card-text, .prod-text {
+    .about, .collection, .product, .philosophy, .contact, .card-text {
         font-size: 14px;
         padding: 10px;
     }
@@ -303,18 +259,12 @@ html {
         margin: 10px 0 0;
     }
 
+    .prod .card {
+        margin: 0px auto 30px;
+    }
+
     .card {
-        margin: 0 20px 30px;
-    }
-
-    .large {
-        display: none;
-    }
-
-    .pro {
-        width: 300px;
-        height: 300px;
-        text-align: center;
-        margin: 0 25px 30px;
+        margin: 0px auto;
     }
 }
+

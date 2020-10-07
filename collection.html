@@ -14,29 +14,6 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 
-    <style>
-        input:focus ~ .floating-label, input:not(:focus):valid ~ .floating-label{
-            top: 8px;
-            bottom: 10px;
-            left: 20px;
-            font-size: 11px;
-            opacity: 1;
-        }
-
-        .inputText {
-            font-size: 14px;
-            width: 200px;
-            height: 35px;
-        }
-
-        .floating-label {
-            position: absolute;
-            pointer-events: none;
-            left: 20px;
-            top: 18px;
-            transition: 0.2s ease all;
-        }
-    </style>
 </head>
 <body>
     <div class="container-fluid">  
@@ -73,11 +50,11 @@
         </nav> 
     </div>
 
-    <div class="container" id="cards" class="col-card">
+    <div class="container" id="col-cards" class="col-card">
       <h2 class="heading" data-aos="fade-down" data-aos-duration="2000">The Collection</h2>
-      <div class="row" style="padding: 0 0 30px;">
-        <div class="col-lg-4 col-sm-12 col-md-6">
-          <div class="card" style="width: 20rem;" data-aos="fade-up" data-aos-duration="2000">
+      <div class="row">
+        <div class="col-12 col-md-4 my-4">
+          <div class="card" data-aos="fade-up" data-aos-duration="2000">
             <img src="images/collections/journey.png" class="card-img-top" style="height: 200px;" alt="Journey">
             <div class="card-body">
               <h5 style="text-align: center;"><strong>Muriel skin care journey</strong></h5>
@@ -95,8 +72,8 @@
          
         </div>
         
-        <div class="col-lg-4 col-sm-12 col-md-6">
-          <div class="card" style="width: 20rem;" data-aos="fade-up" data-aos-duration="2000">
+        <div class="col-12 col-md-4 my-4">
+          <div class="card" data-aos="fade-up" data-aos-duration="2000">
             <img src="images/collections/training.png" class="card-img-top" style="height: 200px;" alt="Training">
             <div class="card-body">
               <h5 style="text-align: center;"><strong>Education support</strong></h5>
@@ -113,8 +90,8 @@
           </div>
         </div>
         
-        <div class="col-lg-4 col-sm-12 col-md-12">
-          <div class="card" style="width: 20rem;" data-aos="fade-up" data-aos-duration="2000">
+        <div class="col-12 col-md-4 my-4">
+          <div class="card" data-aos="fade-up" data-aos-duration="2000">
             <img src="images/collections/marketing.png" class="card-img-top" style="height: 200px;" alt="Marketing">
             <div class="card-body">
               <h5 style="text-align: center;"><strong>Marketing support</strong></h5>
