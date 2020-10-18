@@ -1,486 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products | Muriel</title>
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products | Muriel</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 
-    <!-- CSS Stylesheets -->
-  
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+  <!-- CSS Stylesheets -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 
 </head>
+
 <body onload="loadSites()">
-    <div class="container-fluid">  
-        <!-- Nav Bar -->
-    
-        <nav class="navbar fixed-top navbar-expand-lg navbar-custom navbar-dark bg-dark">
-          <a class="navbar-brand" href="index.html"><img src="images/muriel-logo.png" alt="Muriel"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            <div class="animated-icon1"></div>
-          </button>
-          <div class="collapse navbar-collapse" id="navbar">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item mx-auto">
-                <a class="nav-link" href="index.html">HOME</a>
-              </li>
-              <!-- <li class="nav-item mx-auto">
+  <div class="container-fluid">
+    <!-- Nav Bar -->
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-custom navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html"><img src="images/muriel-logo.png" alt="Muriel"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <div class="animated-icon1"></div>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mx-auto">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <!-- <li class="nav-item mx-auto">
                 <a class="nav-link" href="#aboutus">ABOUT US</a>
               </li> -->
-              <li class="nav-item mx-auto">
-                <a class="nav-link" href="collection.html" target="_blank">THE COLLECTION</a>
-              </li>
-              <li class="nav-item mx-auto">
-                <a class="nav-link active" href="#product">OUR PRODUCTS</a>
-              </li>
-              <!-- <li class="nav-item mx-auto">
+          <li class="nav-item mx-auto">
+            <a class="nav-link" href="collection.html" target="_blank">THE COLLECTION</a>
+          </li>
+          <li class="nav-item mx-auto">
+            <a class="nav-link active" href="#product">OUR PRODUCTS</a>
+          </li>
+          <!-- <li class="nav-item mx-auto">
                 <a class="nav-link" href="#philosophy">OUR PHILOSOPHY</a>
               </li>
               <li class="nav-item mx-auto">
                 <a class="nav-link" href="#contact">CONTACT</a>
               </li> -->
-            </ul>
-          </div>
-        </nav> 
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- Navbar End -->
+
+  <div class="container">
+
+    <div class="prod" id="productlist">
+      <h2 class="heading" data-aos="fade-down" data-aos-duration="2000">Our Products</h2>
+      <p style="text-align: center;" data-aos="fade-up" data-aos-duration="2000">Treatments can be customised according
+        to client needs!</p>
+
+      <div class="row" id="links">
+        <!-- Links -->
+      </div>
+
     </div>
-    <!-- Navbar End -->
-
-    <div class="container">
-      <div class="prod" id="productlist">
-        <h2 class="heading" data-aos="fade-down"  data-aos-duration="2000">Our Products</h2>
-        <p style="text-align: center;" data-aos="fade-up" data-aos-duration="2000">Treatments can be customised according to client needs!</p>
-        
-
-          
-        <div class="row">
-            <div class="col-sm-4 py-2">
-                <div class="card card-body h-100">
-                    Card. I'm just a simple card-block.
-                </div>
-            </div>
-            <div class="col-sm-4 py-2">
-                <div class="card h-100 text-white bg-danger">
-                    <div class="card-body">
-                        <h3 class="card-title">Danger rgdfgsdfgdgfsdgfsfdgsdfgsdgsdfgsdgsdfgsdfgsdfgsdfgsdfgsdgdfg</h3>
-                        <p class="card-text">With ljjlkasfj;lkajsd;alkfjd;aslkfja;slfkjas;dlfakjsd;flaksjdf;alskdjfa;sldkfja;sdlfkajs;dflkajsdfdsdfasfsdasdfasdfasdfasdfasfasfafdsffasdfasdfasdfasfasfasfsfaff;alksfjda;sldfkj;lj supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-outline-light">Outline</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 py-2">
-                <div class="card h-100 card-body">
-                    Card. I'm just a simple card-block, but I have a little more text blah!
-                </div>
-            </div>
-            
-        </div>
-    
-        
-        
-        <!-- First row -->
-        <!-- <div class="row">
-          <div class="col-sm-12 col-md-6 col-lg-4 ">
-            <div class="card" data-aos="fade-up" data-aos-duration="2000">
-              <img class="card-img-top" src="images/prod.jpg" alt="Cleanser">
-              <div class="card-body">
-                <h5 class="card-title">Cleanser</h5>
-                <p class="card-text"><strong>Directions:</strong> Apply a small amount of cleanser onto dampened skin. Gently massage onto skin with a circular motion. Rinse skin thoroughly with water and pat dry. Follow with toner, serum, eye cream, moisturizer, and sunscreen.</p>
-                <p  class="card-text"><strong>Skin Type:</strong> This product is for all skin types.</p>
-                <a href="#!" class="show_hide" data-content="toggle-text">Read More >></a>
-                <div class="content">
-                  <p class="card-text"><strong>Benefits:</strong>
-                    <ul>
-                      <li>Helps to neutralize free radicals.</li>
-                      <li>Leaves the skin feeling clean, supple and nourished.</li>
-                    </ul>  
-                    </p>
-                  <p class="card-text"><strong>Ingredients: </strong></p>
-                  <p>Water (Aqua), Sorbitol, Propylene Glycol, Leuconostoc/Radish Root Ferment Filtrate, Vaccinium Macrocarpon (Cranberry) Fruit Extract, Tilia Cordata (Linden) Flower Extract, Citrus Grandis (Grapefruit) Fruit Extract, Panax Ginseng Root Extract, 
-                    Rosa Canina (Rose Hips) Seed Extract, Chondrus Crispus (Carrageenan) Extract, Algae Extract, Simmondsia Chinensis (Jojoba) Seed Extract, Chamomilla Recutita Matricaria) Flower Extract, Punica Granatum (Pomegranate) Extract, Lycium Barbarum (Goji Berry) 
-                    Fruit Extract, Camellia Sinensis (Green And White Tea) Leaf Extract, Aspalathus Linearis (Red Tea) Extract, Vitis Vinifera (Grapeseed)Extract, Vitis Vinifera (Grapeseed) Oil, Helianthus Annuus (Sunflower) Seed Oil, Tocopheryl Acetate (Vitamin E), Glycerin, 
-                    Bisabolol, Panthenol (Pro Vitamin B5), Xanthan Gum, Allantoin, Dimethicone, Glyceryl Stearate, Ceteareth-20, Cetyl Alcohol, Stearyl Alcohol, Neopentyl Glycol Dicaprate, Tridecyl Trimellitate, Sodium Hydroxide, Carbomer, Sodium Phytate, Alpha-Isomethyl-Ionone, 
-                    Amyl Cinnamal, Benzyl Alcohol, Benzyl Benzoate, Benzyl Salicylate, Butylphenyl Methylpropional, Citral, Citronellol, Hexyl Cinnamal, Hydroxyisohexyl 3-Cyclohexene, Limonene, Coumarin, Eugenol, Linalool, Fragrance (Parfum).</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-12 col-md-6 col-lg-4">
-            <div class="card" data-aos="fade-up" data-aos-duration="2000">
-              <img class="card-img-top" src="images/prod.jpg" alt="Toner">
-              <div class="card-body">
-                <h5 class="card-title">Toner</h5>
-                <p class="card-text"><strong>Directions:</strong> After cleansing, pour a generous amount of toner onto a piece of cotton and wipe face, neck and decollete. Allow toner to dry naturally. Follow with eye cream, serum, moisturizer and sunscreen.</p>
-                <p  class="card-text"><strong>Skin Type:</strong> This product is for sensitive, dry and normal skin types.</p>
-                <a href="#!" class="show_hide" data-content="toggle-text">Read More >></a>
-                <div class="content">
-                  <p class="card-text"><strong>Benefits:</strong>
-                    <ul>
-                      <li>Helps to neutralize free radicals with a powerful antioxidant blend.</li>
-                      <li>Combats the visible signs of premature aging.</li>
-                      <li>Soothes the skin, leaving it calm and refreshed.</li>
-                    </ul>  
-                    </p>
-                  <p class="card-text"><strong>Ingredients: </strong></p>
-                  <p>Water (Aqua), Glycerin, Polysorbate 20, Propylene Glycol, Leuconostoc/Radish Root Ferment Filtrate, Camellia Sinensis (Green And White Tea) Leaf Extract, Camellia Oleifera Leaf Extract, Cucumis Sativus (Cucumber) Fruit Extract, Aspalathus 
-                    Linearis (Red Tea) Extract, Lycium Barbarum (Goji Berry) Fruit Extract, Punica Granatum (Pomegranate) Extract, Vitis Vinifera (Grapeseed) Extract, Macrocystis Pyrifera Extract, Citrus Grandis (Grapefruit) Fruit Extract, Panax Ginseng Root Extract, 
-                    Rosa Canina (Rose Hips) Seed Extract, Chondrus Crispus (Carrageenan) Extract, Algae Extract, Simmondsia Chinensis (Jojoba) Seed Extract, Uncaria Tomentosa (Cat's Claw) Extract, Chamomilla Recutita (Matricaria) Flower Extract, Geranium Maculatum (Wild Geranium) Extract, 
-                    Hydrastis Canadensis (Golden Seal) Extract, Lavandula Angustifolia (Lavender) Flower/Leaf Stem Extract, Melia Azadirachta (Neem) Leaf Extract, Rosa Canina (Rose Hips) Flower Extract, Rosmarinus Officinalis (Rosemary) Leaf Extract, Valeriana Officinalis (Valerian) Rhizome/Root Extract, 
-                    Vitis Vinifera (Grapeseed) Oil, Tocopheryl Acetate (Vitamin E), Allantoin, Peg-23m, Sodium Hydroxide, Sodium Phytate, Leuconostoc/Radish Root Ferment Filtrate, Caprylyl Glycol, Caprylohyroxamic Acid, Amyl Cinnamic Acid, Fragrance (Parfum).</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-12 col-md-6 col-lg-4">
-            <div class="card" data-aos="fade-up" data-aos-duration="2000">
-              <img class="card-img-top" src="images/prod.jpg" alt="Scrub">
-              <div class="card-body">
-                <h5 class="card-title">Scrub</h5>
-                <p class="card-text"><strong>Directions:</strong> After cleansing, apply a small amount of scrub and add water. Massage in a circular motion concentrating on areas of congestion. Rinse with water and pat dry. Follow with eye cream, serum, moisturizer and sunscreen.</p>
-                <p  class="card-text"><strong>Skin Type:</strong> This product is for all skin types.</p>
-                <a href="#!" class="show_hide" data-content="toggle-text">Read More >></a>
-                <div class="content">
-                  <p class="card-text"><strong>Benefits:</strong>
-                    <ul>
-                      <li>Helps to neutralize free radicals with a powerful antioxidant blend.</li>
-                      <li>Combats the visible signs of premature aging.</li>
-                      <li>Leaves skin ultra soft, visibly healthy and radiant.</li>
-                    </ul>  
-                    </p>
-                  <p class="card-text"><strong>Ingredients: </strong></p>
-                  <p>Water (Aqua), Hydrogenated Jojoba Oil, Cocamidopropyl Betaine, Caprylic/Capric Triglyceride, Glycerin, Carbomer, Disodium Laureth Sulfosuccinate, Citrus Nobilis (Mandarin Orange) Peel Extract, Citrus Nobilis (Mandarin Orange) Fruit Extract, 
-                    Glycine Soja (Soybean) Seed Extract, Camellia Sinensis (Green And White Tea) Leaf Extract, Punica Granatum (Pomegranate) Extract, Lycium Barbarum (Goji Berry) Fruit Extract, Vitis Vinifera (Grapeseed) Extract, Aspalathus Linearis (Red Tea) Leaf Extract, 
-                    Tocopheryl Acetate (Vitamin E), Allantoin, Butylene Glycol, Sodium Cocoyl Isethionate, Sodium Hydroxide, Leuconostoc/Radish Root Ferment Filtrate, Sodium Phytate, Sodium Levulinate, Sodium Anisate, Citral, Limonene.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div> -->
-        <!-- First row ends -->
-
-        <!-- Second row -->
-        <!-- <div class="row">
-          <div class="col-sm-12 col-md-6 col-lg-4 ">
-            <div class="card" data-aos="fade-up" data-aos-duration="2000">
-              <img class="card-img-top" src="images/prod.jpg" alt="massageCream">
-              <div class="card-body">
-                <h5 class="card-title">Massage Cream</h5>
-                <p class="card-text"><strong>Directions:</strong> Gentle enough for daily use. Dispense shampoo into the palms and apply to wet hair. Massage into the scalp to create a rich lather and work shampoo through to the ends. Rinse thoroughly and repeat. Follow by applying Clarifying Conditioner to the ends only.</p>
-                <p  class="card-text"><strong>Skin Type:</strong> This product is for all skin types.</p>
-                <a href="#!" class="show_hide" data-content="toggle-text">Read More >></a>
-                <div class="content">
-                  <p class="card-text"><strong>Benefits:</strong>
-                    <ul>
-                      <li>Helps neutralize free radicals with antioxidants.</li>
-                      <li>Combats the visible signs of premature aging.</li>
-                      <li>Has a refreshing lemon and citrus scent.</li>
-                      <li>Leaves hair balanced, enhancing shine and luster.</li>
-                      <li>petrochemical, sulfate and fragrance free.</li>
-                    </ul>
-                   </p>
-                  <p class="card-text"><strong>Ingredients: </strong></p>
-                  <p>Water (Aqua), Cocamidopropyl Betaine, Hydrogenated Castor Oil, Butylene Glycol, Peg-150 Pentaerythrityl Tetrastearate, Zingiber Officinale (Ginger) Root Extract, Citrus Medica Limonum (Lemon) Peel Extract, Oryza Sativa (Rice) Bran , Extract, 
-                    Glycine Soja (Soybean) Seed Extract, Camellia Sinensis (Green And White Tea) Leaf Extract, Algae Extract, Panthenol (Pro Vitamin B5), Hydrolyzed Wheat Protein, Hydrolyzed Wheat Starch, Tocopheryl Acetate (Vitamin E), Glycerin, Peg-6 Caprylic/Capric Glycerides, 
-                    Citric Acid, Sodium Phytate, Sodium Levulinate, Sodium Anisate, Aspalathus Linearis (Red Tea) Extract, Punica Granatum (Pomegranate) Extract, Lycium Barbarum (Goji Berry) Fruit Extract, Vitis Vinifera (Grapeseed) Extract.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-12 col-md-6 col-lg-4">
-            <div class="card" data-aos="fade-up" data-aos-duration="2000">
-              <img class="card-img-top" src="images/prod.jpg" alt="Cleanser">
-              <div class="card-body">
-                <h5 class="card-title">Refining Brightening Masque</h5>
-                <p class="card-text"><strong>Directions:</strong> After cleansing, apply a generous amount to the face, neck and décolleté with the fingertips or a soft masque brush. After five to ten minutes, remove all traces of masque with water and pat dry. Follow with Brightening Serum, Brightening Moisturizer and Sunscreen
-                </p>
-                <p  class="card-text"><strong>Skin Type:</strong> This product is for all skin types.</p>
-                <a href="#!" class="show_hide" data-content="toggle-text">Read More >></a>
-                <div class="content">
-                  <p class="card-text"><strong>Benefits:</strong>
-                    <ul>
-                      <li>Brightens the overall tone of the skin</li>
-                      <li>Provides a truly radiant skin tone</li>
-                      <li>Lifts away dark spots and pigmentation for a more even complexion</li>
-                      <li>Antioxidants protect the skin from free radical and environmental damage</li>
-                      <li>Exfoliates the skin to promote faster, healthier cell regeneration</li>
-                      <li>Penetrates the skin to inhibit the formation of melanin and subsequent dark spots</li>
-                    </ul>  
-                    </p>
-                  <p class="card-text"><strong>Ingredients: </strong></p>
-                  <p>
-                    <ul>
-                      <li>Burberry, mulberry, licorice, and lemon peel extracts - work together to provide a more even skin tone, lift away dark spots and hyper-pigmentation, and provide a more brilliant skin tone</li>
-                      <li>Gigawhite - brightening complex that uses numerous botanical extracts to reduce inflammation, tone the skin, kill bacteria, and inhibit the production of melanin that leads to age spots and hyper-pigmentation</li>
-                      <li>Retinyl palmitate - antioxidant that protects the skin while also inhibiting dehydration and promoting the skin’s natural regeneration process</li>
-                      <li>Vitamin C - antioxidant that protects the skin from free radical and environmental damage while brightening the overall skin tone for a more radiant appearance; also protects the skin from UVA and UVB damage</li>
-                    </ul>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-12 col-md-6 col-lg-4">
-            <div class="card" data-aos="fade-up" data-aos-duration="2000">
-              <img class="card-img-top" src="images/prod.jpg" alt="Cleanser">
-              <div class="card-body">
-                <h5 class="card-title">Purifying Mud Masque</h5>
-                <p class="card-text"><strong>Directions:</strong> After cleansing, apply a generous amount to the face, neck and decollete with the fingertips or a soft masque brush. After five to ten minutes, remove all traces of masque with water and pat dry. Follow with toner, serum, moisturizer and sunscreen.
-                </p>
-                <p  class="card-text"><strong>Skin Type:</strong> This product is for all skin types.</p>
-                <a href="#!" class="show_hide" data-content="toggle-text">Read More >></a>
-                <div class="content">
-                  <p class="card-text"><strong>Benefits:</strong>
-                    <ul>
-                      <li>Soothing botanicals and age-fighting anti-oxidants.</li>
-                      <li>Removes dead skin cell and impurities.</li>
-                      <li>Leaves skin feeling silky smooth and refreshed.</li>
-                    </ul>  
-                    </p>
-                  <p class="card-text"><strong>Ingredients: </strong></p>
-                  <p>Water (Aqua), Kaolin, Butylene Glycol, Stearic Acid, C12-15 Alkyl Benzoate, Shea Butter (Butyrospermum Parkii), Glycerin, Glyceryl Stearate, PEG-100 Stearate, Cyclomethicone, Allantoin, Magnesium Aluminum Silicate, Cetyl Esters, Grape Seed (Vitis Vinifera) Oil, Neem (Melia Azadirachta) Oil, 
-                    Phytantriol, Sunflower (Helianthus Annus) Oil, Lemon (Citrus Medicia Limonum) Oil, Sodium PCA, Gingko Biloba Extract, Comfrey (Symphtutum Officinale) Extract, Arnica Montana Flower Extract, Cat�s Claw (Uncaria Tomentosa) Extract, Grapefruit (Citrus Grandis) Extract, Rose (Rosa Centifolia) Extract, 
-                    Lavender (Lavandula Angustifolia) Extract, Orange (Citrus Aurantium Dulcis) Extract, Sage (Salvia Officinalis) Extract, Geranium (Geranium Maculatum) Extract, Rosemary (Rosmarinus Officinalis) Extract, Isostearyl Neopentoate, Bisabolol, Comfrey Root (Symphtutum Officinale) Extract, Propylene Glycol, 
-                    Phenoxyethanol, Methylparaben, Propylparaben, Butylparaben, Ethylparaben, Titanium Dioxide (CI77891), Zinc Oxide (CI77947).</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div> -->
-        <!-- Second row ends -->
-
-        <!-- Third row -->
-        <!-- <div class="row">
-          <div class="col-sm-12 col-md-6 col-lg-4 ">
-            <div class="card" data-aos="fade-up" data-aos-duration="2000">
-              <img class="card-img-top" src="images/prod.jpg" alt="Cleanser">
-              <div class="card-body">
-                <h5 class="card-title">Craneberry Masque</h5>
-                <p class="card-text"><strong>Directions:</strong> After cleansing, apply a generous amount to the face, neck and decollete with the fingertips or a soft masque brush. After five to ten minutes, remove all traces of masque with water and pat dry. Follow with toner, serum, moisturizer and sunscreen.</p>
-                <p  class="card-text"><strong>Skin Type:</strong> This product is for sensitive, dry and normal skin types.</p>
-                <a href="#!" class="show_hide" data-content="toggle-text">Read More >></a>
-                <div class="content">
-                  <p class="card-text"><strong>Benefits:</strong>
-                    <ul>
-                      <li>Helps to neutralize free radicals with a powerful antioxidant blend.</li>
-                      <li>Combats the visible signs of premature aging.</li>
-                      <li>Leaves the skin supple and revitalized.</li>
-                    </ul>  
-                    </p>
-                  <p class="card-text"><strong>Ingredients: </strong></p>
-                  <p>Water (Aqua), Kaolin, Glyceryl Stearate, Butylene Glycol, Glycerin, Stearic Acid, C12-15 Alkyl Benzoate, Butyrospermum Parkii (Shea Butter), Peg-100 Stearate, Cetyl Alcohol, Titanium Dioxide, Hydrogenated Castor Oil, Propylene Glycol, Vaccinium Macrocarpon (Cranberry) Fruit Extract, Punica Granatum (Pomegranate) Extract, 
-                    Arnica Montana Flower Extract, Chamomila Recutita (Matricaria) Flower Extract, Tilia Cordata (Linden) Flower Extract, Ginkgo Biloba Leaf Extract, Symphytum Officinale (Comfrey) Leaf Extract, Uncaria Tomentosa (Cat’s Claw) Extract, Citrus Grandis (Grapefruit) Fruit Extract, Rosa Canina (Rose Hips) Flower Extract, 
-                    Lavendula Angustifolia (Lavender) Flower/Leaf/Stem Extract, Citrus Aurantium Dulcis (Orange) Fruit Extract, Salvia Officinalis (Sage) Leaf Extract, Geranium Maculatum (Wild Geranium) Extract, Rosmarinus Officinalis (Rosemary) Leaf Extract, Vitis Vinifera (Grapeseed) Extract, Lycium Barbarum (Goji Berry) Fruit Extract, 
-                    Camellia Cinensis (Green And White Tea) Leaf Extract, Aspalathus Linearis (Red Tea) Leaf Extract, Vitis Vinifera (Grapeseed) Oil, Helianthus Annuus (Sunflower) Seed Oil, Bisabolol, Sodium Pca, Isostearyl Neopentanoate, Cyclopentasiloxane, Cyclohexasiloxane, Magnesium Aluminum Silicate, Allantoin, Leuconostoc Radish Root Ferment Filtrate, 
-                    Sodium Phytate, 1,2-Hexanediol, Caprylyl Glycol, Zinc Oxide, Amyl Cinnamal, Benzyl Alcohol, Benzyl Benzoate, Benzyl Salicylate, Citral, Citronellol, Geraniol, Hexyl Cinnamic Aldehyde, Lyral (Hydroxymethylpentylcyclohexencarboxaldehyde, Linalool, Limonene, Coumarin, Fragrance (Parfum).</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-12 col-md-6 col-lg-4">
-            <div class="card" data-aos="fade-up" data-aos-duration="2000">
-              <img class="card-img-top" src="images/prod.jpg" alt="Cleanser">
-              <div class="card-body">
-                <h5 class="card-title">Papaya Masque</h5>
-                <p class="card-text"><strong>Directions:</strong> 
-                  Apply to clean skin and allow it to remain for 3 to 10 minutes, depending on skin sensitivity. Rinse with water and pat dry. Follow with toner, serum, moisturizer and sunscreen. Use once or twice weekly in the absence of irritation.
-                  </p>
-                <p  class="card-text"><strong>Skin Type:</strong> This product is for all skin types.</p>
-                <a href="#!" class="show_hide" data-content="toggle-text">Read More >></a>
-                <div class="content">
-                  <p class="card-text"><strong>Benefits:</strong>
-                    <ul>
-                      <li>Helps to neutralize free radicals with a powerful antioxidant blend.</li>
-                      <li>Combats the visible signs of premature aging.</li>
-                      <li>Leaves the skin soft and supple.</li>
-                    </ul>  
-                    </p>
-                  <p class="card-text"><strong>Ingredients: </strong></p>
-                  <p>Water (Aqua), Ethylhexyl Palmitate, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Propylene Glycol, Cetyl Alcohol, Stearyl Alcohol, Cetearyl Alcohol, Leuconostoc/Radish Root Ferment Filtrate, Carica Papaya (Papaya) Fruit Extract, Mangifera Indica (Mango) Fruit Extract, Ananas Sativus (Pineapple) Fruit Extract, Punica Granatum (Pomegranate) Extract, 
-                    Vitis Vinifera (Grapeseed) Extract, Lycium Barbarum (Goji Berry) Fruit Extract, Camellia Sinensis (Green And White Tea) Leaf Extract, Aspalathus Linearis (Red Tea) Leaf Extract, Borago Officinalis (Borage) Seed Oil, Citrus Aurantium Dulcis (Orange) Peel Oil, Tocopheryl Acetate (Vitamin E), Glycerin, Papain, Ceteareth-20, Triethanolamine, Carbomer, 
-                    Sodium Phytate, Amyl Cinnamal, Benzyl Alcohol, Benzyl Benzoate, Benzyl Salicylate, D-Limonene, Geraniol, Hydroxy Citronellal, 2-(4-Tert-Butylbenzyl) Propionaldehyde (Lilial), Linalool, Hydroxy Methylpentyl Cyclohexencarboxaldehyde, Fragrance (Parfum).</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-12 col-md-6 col-lg-4">
-            <div class="card" data-aos="fade-up" data-aos-duration="2000">
-              <img class="card-img-top" src="images/prod.jpg" alt="Cleanser">
-              <div class="card-body">
-                <h5 class="card-title">Mandarin Masque</h5>
-                <p class="card-text"><strong>Directions:</strong> After cleansing, apply a generous amount to the face, neck and décolleté with the fingertips or a soft masque brush. After five to ten minutes, remove all traces of masque with water and pat dry. Follow with toner, serum, moisturizer and sunscreen.</p>
-                <p  class="card-text"><strong>Skin Type:</strong> This product is for all skin types.</p>
-                <a href="#!" class="show_hide" data-content="toggle-text">Read More >></a>
-                <div class="content">
-                  <p class="card-text"><strong>Benefits:</strong>
-                    <ul>
-                      <li>Helps to neutralize free radicals with a powerful antioxidant blend.</li>
-                      <li>Combats the visible signs of premature aging.</li>
-                    </ul>  
-                    </p>
-                  <p class="card-text"><strong>Ingredients: </strong></p>
-                  <p>Water (Aqua), Glycerin, Propylene Glycol, Polysorbate 20, Citrus Aurantium Dulcis (Orange) Fruit Extract, Chamomilla Recutita (Matricaria) Flower Extract, Algae Extract, Gingko Biloba Leaf Extract, Punica Granatum (Pomegranate) Extract, Vitis Vinifera (Grapeseed) Extract, Lycium Barbarum (Goji Berry) Fruit Extract, Camellia Sinensis (Green And White Tea) Leaf Extract, 
-                    Aspalathus Linearis (Red Tea) Leaf Extract, Wasabia Japonica (Japanese Horseradish) Root Extract, Zingiber Officinale (Ginger) Root Extract, Allium Sativum (Garlic) Bulb Extract, Tocopheryl Acetate (Vitamin E), Bioflavonoids, Magnesium Ascorbyl Phosphate (Vitamin C), Sodium Pca, Allantoin, Sodium Hyaluronate, Sodium Polyacrylate, Sodium Hydroxide, Carbomer, Sodium Phytate, 
-                    Leuconostoc/Radish Root Ferment Filtrate, Caprylyl Glycol, Hexylene Glycol, Alpha-Isoemthylionone, Amyl Cinnamal, Benzyl Alcohol, Butylphenyl Methylpropional, Citral, Citronellol, Eugenol, Evernia Furfuracea (Treemoss) Extract, Geraniol, Hexyl Cinnamal, Hydroxyisohexyl 3-Cyclohexene Carboxaldehyde, Isoeugenol, Limonene, Linalool, Fragrance (Parfum).</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div> -->
-        <!-- Third row ends -->
-        
-        <!-- Fourth row -->
-        <!-- <div class="row">
-          <div class="col-sm-12 col-md-6 col-lg-4 ">
-            <div class="card" data-aos="fade-up" data-aos-duration="2000">
-              <img class="card-img-top" src="images/prod.jpg" alt="Cleanser">
-              <div class="card-body">
-                <h5 class="card-title">Pumpkin Masque</h5>
-                <p class="card-text"><strong>Directions:</strong> Apply to clean skin and allow it to remain for 3 to 10 minutes, depending on skin sensitivity. Rinse with water and pat dry. Follow with toner, serum, moisturizer and sunscreen. Use once or twice weekly in the absence of irritation.</p>
-                <p  class="card-text"><strong>Skin Type:</strong> This product is for dry, normal, combination and oily skin types.</p>
-                <a href="#!" class="show_hide" data-content="toggle-text">Read More >></a>
-                <div class="content">
-                  <p class="card-text"><strong>Benefits:</strong>
-                    <ul>
-                      <li>Helps to neutralize free radicals with a powerful antioxidant blend.</li>
-                      <li>Combats the visible signs of premature aging.</li>
-                      <li>Improves skin elasticity levels.</li>
-                    </ul>  
-                    </p>
-                  <p class="card-text"><strong>Ingredients: </strong></p>
-                  <p>Water (Aqua), Cucurbita Pepo (Pumpkin), Carbomer, Glycerin, Lactobacillus/Pumpkin Ferment Extract, Punica Granatum (Pomegranate) Extract, Vitis Vinifera (Grapeseed) Extract, Lycium Barbarum (Goji Berry) Fruit Extract, Camellia Sinensis (Green And White Tea) Leaf Extract, Aspalathus Linearis (Red Tea) Leaf Extract, Retinyl Palmitate (Vitamin A), 
-                    Leuconostoc/Radish Root Ferment Filtrate, Sodium Hydroxide, Sodium Phytate, Sodium Levulinate, Sodium Anisate, Benzyl Alcohol, Benzyl Benzoate, Cinnamic Aldehyde, Citral, Citronellol, Coumarin, Eugenol, Isoeugenol, D-Limonene, Linalool, Fragrance (Parfum).</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-12 col-md-6 col-lg-4">
-            <div class="card" data-aos="fade-up" data-aos-duration="2000">
-              <img class="card-img-top" src="images/prod.jpg" alt="Cleanser">
-              <div class="card-body">
-                <h5 class="card-title">Age Defying Hydrating Masque</h5>
-                <p class="card-text"><strong>Directions:</strong> First, cleanse the skin with your favorite cleanser.  Then apply a generous amount of Age Defying Hydrating Masque to the surface of the face, neck, and décolleté.  Allow to penetrate the skin for 5-10 minutes before removing it with warm water.  Follow up with a toner, moisturizer, and SPF protection.  Tip - For more intense hydration, apply the Age Defying Hydrating Masque before bed, and remove it in the morning. </p>
-                <p  class="card-text"><strong>Skin Type:</strong> This product is for dry and normal Skin types.</p>
-                <a href="#!" class="show_hide" data-content="toggle-text">Read More >></a>
-                <div class="content">
-                  <p class="card-text"><strong>Benefits:</strong>
-                    <ul>
-                      <li>Showers the skin with rich moisture that lasts</li>
-                      <li>Conditions the skin for a soft, smooth appearance</li>
-                      <li>Nourishes the skin with active ingredients that firm and tone the skin</li>
-                      <li>Increases cellular production of collagen and elastin fora  firmer, less wrinkled complexion</li>
-                      <li>Antioxidant protection from free radical and environmental damage</li>
-                    </ul>  
-                    </p>
-                  <p class="card-text"><strong>Ingredients: </strong></p>
-                  <p>
-                    <ul>
-                      <li>Stero care - patented complex that improves the thickness of the skin by making up for the loss of estrogen that results from menopause</li>
-                      <li>Red clover extract - rich in active ingredients that increase the skin’s production of elastic fibers for a firmer, more youthful look</li>
-                      <li>Lecithin - humectant that draws water from the environment for lasting hydration; boosts the skin’s natural healing process for faster recovery</li>
-                      <li>Kombuchka - from fermented sweet black tea, this vitamin B and acid rich ingredient improves the radiance of the skin, protects it with a antioxidants, and inhibits unhealthy reactions that lead to aging</li>
-                      <li>Dermolectine - growth factor that increases cellular production of collagen and elastin for firmer complexion with fewer visible wrinkles</li>
-                      <li>Dermolectine - also called glucomannan, this humectant aids in moisturizing the skin and plumping the skin for a youthful luster</li>
-                      <li>Sweet almond oil - rich in fatty acids to fortify the skin’s natural barriers and protect the skin</li>
-                    </ul>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-12 col-md-6 col-lg-4">
-            <div class="card" data-aos="fade-up" data-aos-duration="2000">
-              <img class="card-img-top" src="images/prod.jpg" alt="Cleanser">
-              <div class="card-body">
-                <h5 class="card-title">Shower Gel</h5>
-                <p class="card-text"><strong>Directions:</strong> Gently massage a moderate amount over moistened skin with the fingertips or soft sponge. Work into a rich lather. Rinse thoroughly with water and pat dry. Follow with body balm and sun protection.</p>
-                <p  class="card-text"><strong>Skin Type:</strong> This product is for all skin types.</p>
-                <a href="#!" class="show_hide" data-content="toggle-text">Read More >></a>
-                <div class="content">
-                  <p class="card-text"><strong>Benefits:</strong>
-                    <ul>
-                      <li>Helps neutralize free radicals with antioxidants.</li>
-                      <li>Combats the visible signs of premature aging.</li>
-                      <li>Leaves skin feeling soft and supple.</li>
-                    </ul>  
-                    </p>
-                  <p class="card-text"><strong>Ingredients: </strong></p>
-                  <p>Water (Aqua), Disodium Laureth Sulfosuccinate, Cocamidopropyl Betaine, Hydrogenated Castor Oil, Sodium Cocoyl Isethionate, Glycerin, Peg-150 Pentaerythrityl Tetrastearate, Citrus Medica Limonum (Lemon) Peel Extract, Oryza Sativa (Rice) Bran Extract, Glycine Soja (Soybean) Seed Extract, Camellia Sinensis (Green And White Tea) Leaf Extract, Citrus Paradisi (Grapefruit) Fruit Extract, Algae Extract, 
-                    Zingiber Officinale (Ginger) Root Extract, Punica Granatum (Pomegranate) Extract, Aspalathus Linearis (Red Tea) Extract, Vitis Vinifera (Grapeseed) Extract, Lycium Barbarum (Goji Berry) Fruit Extract, Hydrolyzed Wheat Protein, Hydrolyzed Wheat Starch, Panthenol (Pro Vitamin B5), Ppg-26- Buteth-26, Peg-40 Hydrogenated Castor Oil, Butylene Glycol, Leuconostoc/Radish Root Ferment Filtrate, Sodium Phytate, 
-                    Sodium Levulinate, Sodium Anisate, Citric Acid, Citral, Citronellol, Geraniol, Limonene, Linalool.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div> -->
-        <!-- Fourth row ends -->
+  </div>
 
 
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="footer">
+      <div class="container">
+        <p><img src="images/muriel-logo.png"></p>
+        <a class="footer-link" href="https://www.facebook.com/nishijjain"><i class="fa fa-envelope"
+            aria-hidden="true"></i></a>
+        <a class="footer-link" href="https://www.facebook.com/nishijjain"><i class="fa fa-facebook"
+            aria-hidden="true"></i></a>
+        <a class="footer-link" href="https://www.instagram.com/muriel_skincare/"><i class="fa fa-instagram"
+            aria-hidden="true"></i></a>
+        <a class="footer-link" href="tel:9840020161"><i class="fa fa-phone" aria-hidden="true"></i></a>
       </div>
     </div>
-
-
-    <!-- Footer -->
-    <footer id="footer">
-        <div class="footer">
-          <div class="container">
-            <p><img src="images/muriel-logo.png"></p>
-            <a class="footer-link" href="https://www.facebook.com/nishijjain"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-            <a class="footer-link" href="https://www.facebook.com/nishijjain"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <div class="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <p>&copy; 2016 | Muriel Skin Care.</p>
+          </div>
+          <div class="col-sm-6">
+            <p class="pull-right">Designed with ❤️ Nishi Jain</p>
           </div>
         </div>
-        <div class="copyright">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6">
-                <p>&copy; 2016 | Muriel Skin Care.</p>
-              </div>
-              <div class="col-sm-6">
-                <p class="pull-right">Designed with ❤️ Nishi Jain</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>    
+      </div>
+    </div>
+  </footer>
 
-    <!-- Bootstrap Scripts -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="js/index.js"></script>
-    <script src="./js/ajax.js"></script>
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/index.js"></script>
+  <script src="./js/ajax.js"></script>
 </body>
+
 </html>
-
-
-
-
-
-
-
-

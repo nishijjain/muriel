@@ -14,17 +14,24 @@ function loadSites() {
                 for (var i = 0; i < obj.length; i++) {
                     if (i === 0) {
                         $('#links').append(`
-                         <p class="text-center text-left">${obj[i].name}</p>
-                        <p href="${obj[i].directions}"></p>
-                        <h2 class="text-center bs-text">${obj[i].name}</h2>
-                        
+                        <div class="col-sm-4 py-2">
+                <div class="card card-body h-100">
+                ${obj[i].name}
+                ${obj[i].directions}
+                ${obj[i].benefits}
+                </div>
+            </div>
                         `)
                     } else {
                         $('#links').append(`
-                         <p class="text-center text-left">${obj[i].name}</p>
-                        <a href="${obj[i].link}" class="image" target="_blank">
-                        <h2 class="text-center bs-text">${obj[i].name}</h2>
-                        </a>`)
+                        <div class="col-sm-4 py-2">
+                        <div class="card card-body h-100">
+                        ${obj[i].name}
+                        ${obj[i].directions}
+                        ${obj[i].benefits}
+                        </div>
+                    </div>
+                        `)
                     }
                 }
             }
