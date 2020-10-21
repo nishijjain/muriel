@@ -16,11 +16,11 @@ function loadSites() {
                         $('#links').append(`
                         <div class="justify-content-center col-12 col-md-6 col-xl-4 my-4 mx-md-0">
                             <div class="card scrollable card-body h-100">
-                            <img src="${obj[i].image}" alt="" style="width: 280px; height: 300px;"><br>
+                            <img src="${obj[i].image}" alt="" style="width: 280px; height: 280px;"><br>
                             <strong> <center>${obj[i].name}</center></strong><br>
-                            <p><strong>Directions : </strong> ${obj[i].directions}</p>
                             <p><strong>Skin Type : </strong> ${obj[i].skintype}</p>
                             <p><strong>Benefits : </strong> ${obj[i].benefits}</p>
+                            <p><strong>Directions : </strong> ${obj[i].directions}</p>
                             <p><strong>Ingredients : </strong> ${obj[i].ingredients}</p>
                             </div>
                         </div>
@@ -29,11 +29,11 @@ function loadSites() {
                         $('#links').append(`
                         <div class="justify-content-center col-12 col-md-6 col-xl-4 my-4 mx-md-0">
                             <div class="card scrollable card-body h-100">
-                            <img src="${obj[i].image}" alt="" style="width: 280px; height: 300px;"><br>
+                            <img src="${obj[i].image}" alt="" style="width: 280px; height: 280px;"><br>
                             <strong> <center>${obj[i].name}</center></strong><br>
-                            <p><strong>Directions : </strong> ${obj[i].directions}</p>
                             <p><strong>Skin Type : </strong> ${obj[i].skintype}</p>
                             <p><strong>Benefits : </strong> ${obj[i].benefits}</p>
+                            <p><strong>Directions : </strong> ${obj[i].directions}</p>
                             <p><strong>Ingredients : </strong> ${obj[i].ingredients}</p>
                             </div>
                         </div>
