@@ -1,7 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: 	#BEBEBE;
-    /* text-align: center; */
+    /* background-color: 	#BEBEBE; */
 }
 
 * {
@@ -68,6 +67,8 @@ h2 {
 
 #carousel {
     margin-top: 4rem;
+    /* width: 1000px;
+    height: 200px; */
 }
 
 #carousel .carousel-caption h5 {
@@ -108,11 +109,12 @@ h2 {
 }
 
 .collection {
-    background-image: url("../images/about-bg.jpg");
+    background-image: url("../images/collections/collections.jpg");
     color: #fff;
+    font-weight: 600;
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.9;
+    opacity: 1;
     line-height: 2;
     background-attachment: fixed;
 }
@@ -181,11 +183,6 @@ form, .address {
     height: 500px;
 }
 
-.scrollable{
-    overflow-y: auto;
-    max-height: 500px;
-}
-
 .prod .card, .card {
     width: 20rem;
     margin: 0 0 30px;
@@ -213,6 +210,11 @@ form, .address {
     display: none;
 }
 
+.scrollable {
+    overflow-y: auto;
+    max-height: 500px;
+}
+
 ::-webkit-scrollbar {
     width: 6px;
 }
@@ -223,7 +225,7 @@ form, .address {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: lightgrey; 
+    background: lightgray; 
     border-radius: 10px;
 }
 

@@ -14,23 +14,30 @@ function loadSites() {
                 for (var i = 0; i < obj.length; i++) {
                     if (i === 0) {
                         $('#links').append(`
-                        <div class="col-sm-4 py-2">
-                <div class="card card-body h-100">
-                ${obj[i].name}
-                ${obj[i].directions}
-                ${obj[i].benefits}
-                </div>
-            </div>
+                        <div class="justify-content-center col-12 col-md-6 col-xl-4 my-4 mx-md-0">
+                            <div class="card scrollable card-body h-100">
+                            <img src="${obj[i].image}" alt="" style="width: 280px; height: 300px;"><br>
+                            <strong> <center>${obj[i].name}</center></strong><br>
+                            <p><strong>Directions : </strong> ${obj[i].directions}</p>
+                            <p><strong>Skin Type : </strong> ${obj[i].skintype}</p>
+                            <p><strong>Benefits : </strong> ${obj[i].benefits}</p>
+                            <p><strong>Ingredients : </strong> ${obj[i].ingredients}</p>
+                            </div>
+                        </div>
                         `)
                     } else {
                         $('#links').append(`
-                        <div class="col-sm-4 py-2">
-                        <div class="card card-body h-100">
-                        ${obj[i].name}
-                        ${obj[i].directions}
-                        ${obj[i].benefits}
+                        <div class="justify-content-center col-12 col-md-6 col-xl-4 my-4 mx-md-0">
+                            <div class="card scrollable card-body h-100">
+                            <img src="${obj[i].image}" alt="" style="width: 280px; height: 300px;"><br>
+                            <strong> <center>${obj[i].name}</center></strong><br>
+                            <p><strong>Directions : </strong> ${obj[i].directions}</p>
+                            <p><strong>Skin Type : </strong> ${obj[i].skintype}</p>
+                            <p><strong>Benefits : </strong> ${obj[i].benefits}</p>
+                            <p><strong>Ingredients : </strong> ${obj[i].ingredients}</p>
+                            </div>
                         </div>
-                    </div>
+
                         `)
                     }
                 }

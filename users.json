@@ -1,27 +1,42 @@
 [
     {
+        "image": "./images/products/product.jpg",
         "name": "Cleanser",
-        "directions": "abc",
-        "benefits": "abcabc"
+        "directions": "Apply a small amount of cleanser onto dampened skin. Gently massage onto skin with a circular motion. Rinse skin thoroughly with water and pat dry. Follow with toner, serum, eye cream, moisturizer, and sunscreen.",
+        "skintype": "This product is for all skin types.",
+        "benefits": "1) Helps to neutralize free radicals. <br> 2) Leaves the skin feeling clean, supple and nourished.",
+        "ingredients": "Water (Aqua), Sorbitol, Propylene Glycol, Leuconostoc/Radish Root Ferment Filtrate, Vaccinium Macrocarpon (Cranberry) Fruit Extract, Tilia Cordata (Linden) Flower Extract, Citrus Grandis (Grapefruit) Fruit Extract, Panax Ginseng Root Extract, Rosa Canina (Rose Hips) Seed Extract, Chondrus Crispus (Carrageenan) Extract, Algae Extract, Simmondsia Chinensis (Jojoba) Seed Extract, Chamomilla Recutita Matricaria) Flower Extract, Punica Granatum (Pomegranate) Extract, Lycium Barbarum (Goji Berry) Fruit Extract, Camellia Sinensis (Green And White Tea) Leaf Extract, Aspalathus Linearis (Red Tea) Extract, Vitis Vinifera (Grapeseed)Extract, Vitis Vinifera (Grapeseed) Oil, Helianthus Annuus (Sunflower) Seed Oil, Tocopheryl Acetate (Vitamin E), Glycerin, Bisabolol, Panthenol (Pro Vitamin B5), Xanthan Gum, Allantoin, Dimethicone, Glyceryl Stearate, Ceteareth-20, Cetyl Alcohol, Stearyl Alcohol, Neopentyl Glycol Dicaprate, Tridecyl Trimellitate, Sodium Hydroxide, Carbomer, Sodium Phytate, Alpha-Isomethyl-Ionone, Amyl Cinnamal, Benzyl Alcohol, Benzyl Benzoate, Benzyl Salicylate, Butylphenyl Methylpropional, Citral, Citronellol, Hexyl Cinnamal, Hydroxyisohexyl 3-Cyclohexene, Limonene, Coumarin, Eugenol, Linalool, Fragrance (Parfum)."
     },
     {
+        "image": "./images/products/product.jpg",
         "name": "Cleanser",
-        "directions": "abc",
-        "benefits": "abcabc"
+        "directions": "Apply a small amount of cleanser onto dampened skin. Gently massage onto skin with a circular motion. Rinse skin thoroughly with water and pat dry. Follow with toner, serum, eye cream, moisturizer, and sunscreen.",
+        "skintype": "This product is for all skin types.",
+        "benefits": "1) Helps to neutralize free radicals. <br> 2) Leaves the skin feeling clean, supple and nourished.",
+        "ingredients": "Water (Aqua), Sorbitol, Propylene Glycol, Leuconostoc/Radish Root Ferment Filtrate, Vaccinium Macrocarpon (Cranberry) Fruit Extract, Tilia Cordata (Linden) Flower Extract, Citrus Grandis (Grapefruit) Fruit Extract, Panax Ginseng Root Extract, Rosa Canina (Rose Hips) Seed Extract, Chondrus Crispus (Carrageenan) Extract, Algae Extract, Simmondsia Chinensis (Jojoba) Seed Extract, Chamomilla Recutita Matricaria) Flower Extract, Punica Granatum (Pomegranate) Extract, Lycium Barbarum (Goji Berry) Fruit Extract, Camellia Sinensis (Green And White Tea) Leaf Extract, Aspalathus Linearis (Red Tea) Extract, Vitis Vinifera (Grapeseed)Extract, Vitis Vinifera (Grapeseed) Oil, Helianthus Annuus (Sunflower) Seed Oil, Tocopheryl Acetate (Vitamin E), Glycerin, Bisabolol, Panthenol (Pro Vitamin B5), Xanthan Gum, Allantoin, Dimethicone, Glyceryl Stearate, Ceteareth-20, Cetyl Alcohol, Stearyl Alcohol, Neopentyl Glycol Dicaprate, Tridecyl Trimellitate, Sodium Hydroxide, Carbomer, Sodium Phytate, Alpha-Isomethyl-Ionone, Amyl Cinnamal, Benzyl Alcohol, Benzyl Benzoate, Benzyl Salicylate, Butylphenyl Methylpropional, Citral, Citronellol, Hexyl Cinnamal, Hydroxyisohexyl 3-Cyclohexene, Limonene, Coumarin, Eugenol, Linalool, Fragrance (Parfum)."
     },
     {
+        "image": "./images/products/product.jpg",
         "name": "Cleanser",
-        "directions": "abc",
-        "benefits": "abcabc"
+        "directions": "Apply a small amount of cleanser onto dampened skin. Gently massage onto skin with a circular motion. Rinse skin thoroughly with water and pat dry. Follow with toner, serum, eye cream, moisturizer, and sunscreen.",
+        "skintype": "This product is for all skin types.",
+        "benefits": "1) Helps to neutralize free radicals. <br> 2) Leaves the skin feeling clean, supple and nourished.",
+        "ingredients": "Water (Aqua), Sorbitol, Propylene Glycol, Leuconostoc/Radish Root Ferment Filtrate, Vaccinium Macrocarpon (Cranberry) Fruit Extract, Tilia Cordata (Linden) Flower Extract, Citrus Grandis (Grapefruit) Fruit Extract, Panax Ginseng Root Extract, Rosa Canina (Rose Hips) Seed Extract, Chondrus Crispus (Carrageenan) Extract, Algae Extract, Simmondsia Chinensis (Jojoba) Seed Extract, Chamomilla Recutita Matricaria) Flower Extract, Punica Granatum (Pomegranate) Extract, Lycium Barbarum (Goji Berry) Fruit Extract, Camellia Sinensis (Green And White Tea) Leaf Extract, Aspalathus Linearis (Red Tea) Extract, Vitis Vinifera (Grapeseed)Extract, Vitis Vinifera (Grapeseed) Oil, Helianthus Annuus (Sunflower) Seed Oil, Tocopheryl Acetate (Vitamin E), Glycerin, Bisabolol, Panthenol (Pro Vitamin B5), Xanthan Gum, Allantoin, Dimethicone, Glyceryl Stearate, Ceteareth-20, Cetyl Alcohol, Stearyl Alcohol, Neopentyl Glycol Dicaprate, Tridecyl Trimellitate, Sodium Hydroxide, Carbomer, Sodium Phytate, Alpha-Isomethyl-Ionone, Amyl Cinnamal, Benzyl Alcohol, Benzyl Benzoate, Benzyl Salicylate, Butylphenyl Methylpropional, Citral, Citronellol, Hexyl Cinnamal, Hydroxyisohexyl 3-Cyclohexene, Limonene, Coumarin, Eugenol, Linalool, Fragrance (Parfum)."
     },
     {
+        "image": "./images/products/product.jpg",
         "name": "Cleanser",
-        "directions": "abc",
-        "benefits": "abcabc"
+        "directions": "Apply a small amount of cleanser onto dampened skin. Gently massage onto skin with a circular motion. Rinse skin thoroughly with water and pat dry. Follow with toner, serum, eye cream, moisturizer, and sunscreen.",
+        "skintype": "This product is for all skin types.",
+        "benefits": "1) Helps to neutralize free radicals. <br> 2) Leaves the skin feeling clean, supple and nourished.",
+        "ingredients": "Water (Aqua), Sorbitol, Propylene Glycol, Leuconostoc/Radish Root Ferment Filtrate, Vaccinium Macrocarpon (Cranberry) Fruit Extract, Tilia Cordata (Linden) Flower Extract, Citrus Grandis (Grapefruit) Fruit Extract, Panax Ginseng Root Extract, Rosa Canina (Rose Hips) Seed Extract, Chondrus Crispus (Carrageenan) Extract, Algae Extract, Simmondsia Chinensis (Jojoba) Seed Extract, Chamomilla Recutita Matricaria) Flower Extract, Punica Granatum (Pomegranate) Extract, Lycium Barbarum (Goji Berry) Fruit Extract, Camellia Sinensis (Green And White Tea) Leaf Extract, Aspalathus Linearis (Red Tea) Extract, Vitis Vinifera (Grapeseed)Extract, Vitis Vinifera (Grapeseed) Oil, Helianthus Annuus (Sunflower) Seed Oil, Tocopheryl Acetate (Vitamin E), Glycerin, Bisabolol, Panthenol (Pro Vitamin B5), Xanthan Gum, Allantoin, Dimethicone, Glyceryl Stearate, Ceteareth-20, Cetyl Alcohol, Stearyl Alcohol, Neopentyl Glycol Dicaprate, Tridecyl Trimellitate, Sodium Hydroxide, Carbomer, Sodium Phytate, Alpha-Isomethyl-Ionone, Amyl Cinnamal, Benzyl Alcohol, Benzyl Benzoate, Benzyl Salicylate, Butylphenyl Methylpropional, Citral, Citronellol, Hexyl Cinnamal, Hydroxyisohexyl 3-Cyclohexene, Limonene, Coumarin, Eugenol, Linalool, Fragrance (Parfum)."
     },
     {
+        "image": "./images/products/product.jpg",
         "name": "Cleanser",
-        "directions": "abc",
-        "benefits": "abcabc"
-    }
+        "directions": "Apply a small amount of cleanser onto dampened skin. Gently massage onto skin with a circular motion. Rinse skin thoroughly with water and pat dry. Follow with toner, serum, eye cream, moisturizer, and sunscreen.",
+        "skintype": "This product is for all skin types.",
+        "benefits": "1) Helps to neutralize free radicals. <br> 2) Leaves the skin feeling clean, supple and nourished.",
+        "ingredients": "Water (Aqua), Sorbitol, Propylene Glycol, Leuconostoc/Radish Root Ferment Filtrate, Vaccinium Macrocarpon (Cranberry) Fruit Extract, Tilia Cordata (Linden) Flower Extract, Citrus Grandis (Grapefruit) Fruit Extract, Panax Ginseng Root Extract, Rosa Canina (Rose Hips) Seed Extract, Chondrus Crispus (Carrageenan) Extract, Algae Extract, Simmondsia Chinensis (Jojoba) Seed Extract, Chamomilla Recutita Matricaria) Flower Extract, Punica Granatum (Pomegranate) Extract, Lycium Barbarum (Goji Berry) Fruit Extract, Camellia Sinensis (Green And White Tea) Leaf Extract, Aspalathus Linearis (Red Tea) Extract, Vitis Vinifera (Grapeseed)Extract, Vitis Vinifera (Grapeseed) Oil, Helianthus Annuus (Sunflower) Seed Oil, Tocopheryl Acetate (Vitamin E), Glycerin, Bisabolol, Panthenol (Pro Vitamin B5), Xanthan Gum, Allantoin, Dimethicone, Glyceryl Stearate, Ceteareth-20, Cetyl Alcohol, Stearyl Alcohol, Neopentyl Glycol Dicaprate, Tridecyl Trimellitate, Sodium Hydroxide, Carbomer, Sodium Phytate, Alpha-Isomethyl-Ionone, Amyl Cinnamal, Benzyl Alcohol, Benzyl Benzoate, Benzyl Salicylate, Butylphenyl Methylpropional, Citral, Citronellol, Hexyl Cinnamal, Hydroxyisohexyl 3-Cyclohexene, Limonene, Coumarin, Eugenol, Linalool, Fragrance (Parfum)."
+    } 
 ]
