@@ -1,4 +1,11 @@
-function loadSites() {
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function loadSites() {
     var xh = new XMLHttpRequest();
     xh.open("GET", "../users.json", true)
     xh.setRequestHeader('Content-Type', 'application/json')
@@ -18,10 +25,11 @@ function loadSites() {
                             <div class="card product-scrollable card-body h-100">
                             <img src="${obj[i].image}" alt="" style="width: 280px; height: 280px;"> 
                             <p><strong><center>${obj[i].name}</center></strong></p>
-                            <p><strong>Skin Type : </strong> ${obj[i].skintype}</p>
-                            <p><strong>Directions : </strong> ${obj[i].directions}</p>
-                            <p><strong>Benefits : </strong> ${obj[i].benefits}</p>
-                            <p><strong>Ingredients : </strong> ${obj[i].ingredients}</p>
+                            <a href="productinfo.html" target="_blank" style="color:black; font-size: 20px;">Read more...</a>
+                            // <p><strong>Skin Type : </strong> ${obj[i].skintype}</p>
+                            // <p><strong>Directions : </strong> ${obj[i].directions}</p>
+                            // <p><strong>Benefits : </strong> ${obj[i].benefits}</p>
+                            // <p><strong>Ingredients : </strong> ${obj[i].ingredients}</p>
                             </div>
                         </div>
                         `)
@@ -31,6 +39,7 @@ function loadSites() {
                             <div class="card product-scrollable card-body h-100">
                             <img src="${obj[i].image}" alt="" style="width: 280px; height: 280px;">
                             <p><strong><center>${obj[i].name}</center></strong></p>
+                            <a href="productinfo.html" target="_blank" style="color:black; font-size: 20px;">Read more...</a>
                             <p><strong>Skin Type : </strong> ${obj[i].skintype}</p>
                             <p><strong>Directions : </strong> ${obj[i].directions}</p>
                             <p><strong>Benefits : </strong> ${obj[i].benefits}</p>
@@ -45,3 +54,9 @@ function loadSites() {
         }
     }
 }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -180,12 +180,9 @@ form, .address {
 }
 
 .card {
-    height: 500px;
-}
-
-.prod .card, .card {
     width: 20rem;
-    margin: 0 0 30px;
+    margin: 0;
+    height: 500px;
 } 
 
 .show_hide, .show_hide:hover {
@@ -210,9 +207,14 @@ form, .address {
     display: none;
 }
 
-.scrollable {
+.collection-scrollable {
     overflow-y: auto;
     max-height: 500px;
+}
+
+.product-scrollable {
+    overflow-y: auto;
+    max-height: 420px;
 }
 
 ::-webkit-scrollbar {
@@ -228,6 +230,7 @@ form, .address {
     background: lightgray; 
     border-radius: 10px;
 }
+
 
 html {
     scroll-behavior: smooth;
