@@ -310,12 +310,7 @@ html {
     .card {
         width: 20rem;
         margin: 0 auto;
-    } 
-
-    .collection-scrollable {
-        overflow-y: auto;
-        max-height: 510px;
-    }
+    }     
 }
 
 
