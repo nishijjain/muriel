@@ -3,7 +3,7 @@
         "image": "./images/products/product.jpg",
         "name": "Cleanser",
         "directions": "Apply a small amount of cleanser onto dampened skin. Gently massage onto skin with a circular motion. Rinse skin thoroughly with water and pat dry. Follow with toner, serum, eye cream, moisturizer, and sunscreen.",
-        "skintype": "This product is for all skin types.",
+        "skintype": "This product is for This product is for all skin types.",
         "benefits": "1) Helps to neutralize free radicals. <br> 2) Leaves the skin feeling clean, supple and nourished.",
         "ingredients": "Water (Aqua), Sorbitol, Propylene Glycol, Leuconostoc/Radish Root Ferment Filtrate, Vaccinium Macrocarpon (Cranberry) Fruit Extract, Tilia Cordata (Linden) Flower Extract, Citrus Grandis (Grapefruit) Fruit Extract, Panax Ginseng Root Extract, Rosa Canina (Rose Hips) Seed Extract, Chondrus Crispus (Carrageenan) Extract, Algae Extract, Simmondsia Chinensis (Jojoba) Seed Extract, Chamomilla Recutita Matricaria) Flower Extract, Punica Granatum (Pomegranate) Extract, Lycium Barbarum (Goji Berry) Fruit Extract, Camellia Sinensis (Green And White Tea) Leaf Extract, Aspalathus Linearis (Red Tea) Extract, Vitis Vinifera (Grapeseed)Extract, Vitis Vinifera (Grapeseed) Oil, Helianthus Annuus (Sunflower) Seed Oil, Tocopheryl Acetate (Vitamin E), Glycerin, Bisabolol, Panthenol (Pro Vitamin B5), Xanthan Gum, Allantoin, Dimethicone, Glyceryl Stearate, Ceteareth-20, Cetyl Alcohol, Stearyl Alcohol, Neopentyl Glycol Dicaprate, Tridecyl Trimellitate, Sodium Hydroxide, Carbomer, Sodium Phytate, Alpha-Isomethyl-Ionone, Amyl Cinnamal, Benzyl Alcohol, Benzyl Benzoate, Benzyl Salicylate, Butylphenyl Methylpropional, Citral, Citronellol, Hexyl Cinnamal, Hydroxyisohexyl 3-Cyclohexene, Limonene, Coumarin, Eugenol, Linalool, Fragrance (Parfum)."
     },
@@ -19,7 +19,7 @@
         "image": "./images/products/product.jpg",
         "name": "Scrub",
         "directions": "After cleansing, apply a small amount of scrub and add water. Massage in a circular motion concentrating on areas of congestion. Rinse with water and pat dry. Follow with eye cream, serum, moisturizer and sunscreen.",
-        "skintype": "This product is for all skin types.",
+        "skintype": "This product is for This product is for all skin types",
         "benefits": "1) Helps to neutralize free radicals with a powerful antioxidant blend.<br> 2) Combats the visible signs of premature aging.<br> 3) Leaves skin ultra soft, visibly healthy and radiant.",
         "ingredients": "Water (Aqua), Sorbitol, Propylene Glycol, Leuconostoc/Radish Root Ferment Filtrate, Vaccinium Macrocarpon (Cranberry) Fruit Extract, Tilia Cordata (Linden) Flower Extract, Citrus Grandis (Grapefruit) Fruit Extract, Panax Ginseng Root Extract, Rosa Canina (Rose Hips) Seed Extract, Chondrus Crispus (Carrageenan) Extract, Algae Extract, Simmondsia Chinensis (Jojoba) Seed Extract, Chamomilla Recutita Matricaria) Flower Extract, Punica Granatum (Pomegranate) Extract, Lycium Barbarum (Goji Berry) Fruit Extract, Camellia Sinensis (Green And White Tea) Leaf Extract, Aspalathus Linearis (Red Tea) Extract, Vitis Vinifera (Grapeseed)Extract, Vitis Vinifera (Grapeseed) Oil, Helianthus Annuus (Sunflower) Seed Oil, Tocopheryl Acetate (Vitamin E), Glycerin, Bisabolol, Panthenol (Pro Vitamin B5), Xanthan Gum, Allantoin, Dimethicone, Glyceryl Stearate, Ceteareth-20, Cetyl Alcohol, Stearyl Alcohol, Neopentyl Glycol Dicaprate, Tridecyl Trimellitate, Sodium Hydroxide, Carbomer, Sodium Phytate, Alpha-Isomethyl-Ionone, Amyl Cinnamal, Benzyl Alcohol, Benzyl Benzoate, Benzyl Salicylate, Butylphenyl Methylpropional, Citral, Citronellol, Hexyl Cinnamal, Hydroxyisohexyl 3-Cyclohexene, Limonene, Coumarin, Eugenol, Linalool, Fragrance (Parfum)."
     },
@@ -27,7 +27,7 @@
         "image": "./images/products/product.jpg",
         "name": "Massage Cream",
         "directions": "Gentle enough for daily use. Dispense shampoo into the palms and apply to wet hair. Massage into the scalp to create a rich lather and work shampoo through to the ends. Rinse thoroughly and repeat. Follow by applying Clarifying Conditioner to the ends only.",
-        "skintype": "This product is for all skin types.",
+        "skintype": "This product is for This product is for all skin types.",
         "benefits": "1) Helps neutralize free radicals with antioxidants.<br> 2) Combats the visible signs of premature aging.<br> 3) Has a refreshing lemon and citrus scent.<br> 4) Leaves hair balanced, enhancing shine and luster.<br> 5) Petrochemical, sulfate and fragrance free.",
         "ingredients": "Water (Aqua), Cocamidopropyl Betaine, Hydrogenated Castor Oil, Butylene Glycol, Peg-150 Pentaerythrityl Tetrastearate, Zingiber Officinale (Ginger) Root Extract, Citrus Medica Limonum (Lemon) Peel Extract, Oryza Sativa (Rice) Bran , Extract, Glycine Soja (Soybean) Seed Extract, Camellia Sinensis (Green And White Tea) Leaf Extract, Algae Extract, Panthenol (Pro Vitamin B5), Hydrolyzed Wheat Protein, Hydrolyzed Wheat Starch, Tocopheryl Acetate (Vitamin E), Glycerin, Peg-6 Caprylic/Capric Glycerides, Citric Acid, Sodium Phytate, Sodium Levulinate, Sodium Anisate, Aspalathus Linearis (Red Tea) Extract, Punica Granatum (Pomegranate) Extract, Lycium Barbarum (Goji Berry) Fruit Extract, Vitis Vinifera (Grapeseed) Extract."
     },
@@ -35,7 +35,7 @@
         "image": "./images/products/product.jpg",
         "name": "Refining Brightening Masque",
         "directions": "After cleansing, apply a generous amount to the face, neck and décolleté with the fingertips or a soft masque brush. After five to ten minutes, remove all traces of masque with water and pat dry. Follow with Brightening Serum, Brightening Moisturizer and Sunscreen",
-        "skintype": "This product is for all skin types.",
+        "skintype": "This product is for This product is for all skin types.",
         "benefits": "1) Brightens the overall tone of the skin<br>2) Provides a truly radiant skin tone<br>3) Lifts away dark spots and pigmentation for a more even complexion<br> 4) Antioxidants protect the skin from free radical and environmental damage<br> 5) Exfoliates the skin to promote faster, healthier cell regeneration<br> 6)Penetrates the skin to inhibit the formation of melanin and subsequent dark spots",
         "ingredients": "1) Burberry, mulberry, licorice, and lemon peel extracts - work together to provide a more even skin tone, lift away dark spots and hyper-pigmentation, and provide a more brilliant skin tone<br> 2) Gigawhite - brightening complex that uses numerous botanical extracts to reduce inflammation, tone the skin, kill bacteria, and inhibit the production of melanin that leads to age spots and hyper-pigmentation<br> 3) Retinyl palmitate - antioxidant that protects the skin while also inhibiting dehydration and promoting the skin’s natural regeneration process<br> 4) Vitamin C - antioxidant that protects the skin from free radical and environmental damage while brightening the overall skin tone for a more radiant appearance; also protects the skin from UVA and UVB damage"
     },
@@ -43,7 +43,7 @@
         "image":"./images/products/product.jpg",
         "name": "Purifying Mud Masque",
         "directions": "After cleansing, apply a generous amount to the face, neck and decollete with the fingertips or a soft masque brush. After five to ten minutes, remove all traces of masque with water and pat dry. Follow with toner, serum, moisturizer and sunscreen.",
-        "skintype": "This product is for all skin types.",
+        "skintype": "This product is for This product is for all skin types.",
         "benefits": "1) Soothing botanicals and age-fighting anti-oxidants.<br> 2) Removes dead skin cell and impurities.<br> 3) Leaves skin feeling silky smooth and refreshed.",
         "ingredients": "Water (Aqua), Kaolin, Butylene Glycol, Stearic Acid, C12-15 Alkyl Benzoate, Shea Butter (Butyrospermum Parkii), Glycerin, Glyceryl Stearate, PEG-100 Stearate, Cyclomethicone, Allantoin, Magnesium Aluminum Silicate, Cetyl Esters, Grape Seed (Vitis Vinifera) Oil, Neem (Melia Azadirachta) Oil, Phytantriol, Sunflower (Helianthus Annus) Oil, Lemon (Citrus Medicia Limonum) Oil, Sodium PCA, Gingko Biloba Extract, Comfrey (Symphtutum Officinale) Extract, Arnica Montana Flower Extract, Cats Claw (Uncaria Tomentosa) Extract, Grapefruit (Citrus Grandis) Extract, Rose (Rosa Centifolia) Extract, Lavender (Lavandula Angustifolia) Extract, Orange (Citrus Aurantium Dulcis) Extract, Sage (Salvia Officinalis) Extract, Geranium (Geranium Maculatum) Extract, Rosemary (Rosmarinus Officinalis) Extract, Isostearyl Neopentoate, Bisabolol, Comfrey Root (Symphtutum Officinale) Extract, Propylene Glycol, Phenoxyethanol, Methylparaben, Propylparaben, Butylparaben, Ethylparaben, Titanium Dioxide (CI77891), Zinc Oxide (CI77947)."
     },
@@ -59,7 +59,7 @@
         "image":"./images/products/product.jpg",
         "name": "Papaya Masque",
         "directions": "Apply to clean skin and allow it to remain for 3 to 10 minutes, depending on skin sensitivity. Rinse with water and pat dry. Follow with toner, serum, moisturizer and sunscreen. Use once or twice weekly in the absence of irritation.",
-        "skintype": "This product is for all skin types.",
+        "skintype": "This product is for This product is for all skin types.",
         "benefits": "1) Helps to neutralize free radicals with a powerful antioxidant blend.<br>2) Combats the visible signs of premature aging.<br>3) Leaves the skin soft and supple.",
         "ingredients": "Water (Aqua), Ethylhexyl Palmitate, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Propylene Glycol, Cetyl Alcohol, Stearyl Alcohol, Cetearyl Alcohol, Leuconostoc/Radish Root Ferment Filtrate, Carica Papaya (Papaya) Fruit Extract, Mangifera Indica (Mango) Fruit Extract, Ananas Sativus (Pineapple) Fruit Extract, Punica Granatum (Pomegranate) Extract, Vitis Vinifera (Grapeseed) Extract, Lycium Barbarum (Goji Berry) Fruit Extract, Camellia Sinensis (Green And White Tea) Leaf Extract, Aspalathus Linearis (Red Tea) Leaf Extract, Borago Officinalis (Borage) Seed Oil, Citrus Aurantium Dulcis (Orange) Peel Oil, Tocopheryl Acetate (Vitamin E), Glycerin, Papain, Ceteareth-20, Triethanolamine, Carbomer, Sodium Phytate, Amyl Cinnamal, Benzyl Alcohol, Benzyl Benzoate, Benzyl Salicylate, D-Limonene, Geraniol, Hydroxy Citronellal, 2-(4-Tert-Butylbenzyl) Propionaldehyde (Lilial), Linalool, Hydroxy Methylpentyl Cyclohexencarboxaldehyde, Fragrance (Parfum)."
     },
@@ -67,7 +67,7 @@
         "image":"./images/products/product.jpg",
         "name": "Mandarin Masque",
         "directions": "After cleansing, apply a generous amount to the face, neck and décolleté with the fingertips or a soft masque brush. After five to ten minutes, remove all traces of masque with water and pat dry. Follow with toner, serum, moisturizer and sunscreen.",
-        "skintype": "This product is for all skin types.",
+        "skintype": "This product is for This product is for all skin types.",
         "benefits": "1) Helps to neutralize free radicals with a powerful antioxidant blend.<br>2) Combats the visible signs of premature aging.",
         "ingredients": "Water (Aqua), Glycerin, Propylene Glycol, Polysorbate 20, Citrus Aurantium Dulcis (Orange) Fruit Extract, Chamomilla Recutita (Matricaria) Flower Extract, Algae Extract, Gingko Biloba Leaf Extract, Punica Granatum (Pomegranate) Extract, Vitis Vinifera (Grapeseed) Extract, Lycium Barbarum (Goji Berry) Fruit Extract, Camellia Sinensis (Green And White Tea) Leaf Extract, Aspalathus Linearis (Red Tea) Leaf Extract, Wasabia Japonica (Japanese Horseradish) Root Extract, Zingiber Officinale (Ginger) Root Extract, Allium Sativum (Garlic) Bulb Extract, Tocopheryl Acetate (Vitamin E), Bioflavonoids, Magnesium Ascorbyl Phosphate (Vitamin C), Sodium Pca, Allantoin, Sodium Hyaluronate, Sodium Polyacrylate, Sodium Hydroxide, Carbomer, Sodium Phytate, Leuconostoc/Radish Root Ferment Filtrate, Caprylyl Glycol, Hexylene Glycol, Alpha-Isoemthylionone, Amyl Cinnamal, Benzyl Alcohol, Butylphenyl Methylpropional, Citral, Citronellol, Eugenol, Evernia Furfuracea (Treemoss) Extract, Geraniol, Hexyl Cinnamal, Hydroxyisohexyl 3-Cyclohexene Carboxaldehyde, Isoeugenol, Limonene, Linalool, Fragrance (Parfum)."
     },
@@ -91,9 +91,50 @@
         "image":"./images/products/product.jpg",
         "name": "Shower Gel",
         "directions": "Gently massage a moderate amount over moistened skin with the fingertips or soft sponge. Work into a rich lather. Rinse thoroughly with water and pat dry. Follow with body balm and sun protection.",
-        "skintype": "This product is for all skin types.",
+        "skintype": "This product is for This product is for all skin types.",
         "benefits": "1) Helps neutralize free radicals with antioxidants.<br>2) Combats the visible signs of premature aging.<br>3) Leaves skin feeling soft and supple.",
         "ingredients": "Water (Aqua), Disodium Laureth Sulfosuccinate, Cocamidopropyl Betaine, Hydrogenated Castor Oil, Sodium Cocoyl Isethionate, Glycerin, Peg-150 Pentaerythrityl Tetrastearate, Citrus Medica Limonum (Lemon) Peel Extract, Oryza Sativa (Rice) Bran Extract, Glycine Soja (Soybean) Seed Extract, Camellia Sinensis (Green And White Tea) Leaf Extract, Citrus Paradisi (Grapefruit) Fruit Extract, Algae Extract, Zingiber Officinale (Ginger) Root Extract, Punica Granatum (Pomegranate) Extract, Aspalathus Linearis (Red Tea) Extract, Vitis Vinifera (Grapeseed) Extract, Lycium Barbarum (Goji Berry) Fruit Extract, Hydrolyzed Wheat Protein, Hydrolyzed Wheat Starch, Panthenol (Pro Vitamin B5), Ppg-26- Buteth-26, Peg-40 Hydrogenated Castor Oil, Butylene Glycol, Leuconostoc/Radish Root Ferment Filtrate, Sodium Phytate, Sodium Levulinate, Sodium Anisate, Citric Acid, Citral, Citronellol, Geraniol, Limonene, Linalool."
+    },
+    {
+        "image":"./images/products/product.jpg",
+        "name": "Gold peel off mask", 
+        "skintype": "This product is for all skin types.",
+        "ingredients": "Aloe water, extracts,Wheatgerm Water,,Rose water,Gold mica,Poliviynyl alcohol,Polythylene,Propylene glycol,Glycol 1500,Dmdm hydantion,Laphen Glycerine Alcohol"
+    },
+    {
+        "image":"./images/products/product.jpg",
+        "name": "Charcoal peel off mask", 
+        "skintype": "This product is for oily skin types.",
+        "ingredients": "Aloe water extracts, Wheatgerm Water, Rose water,Charcoal powder, Pvk, PVA ,Glycerine,Alcohol"
+    },
+    {
+        "image":"./images/products/product.jpg",
+        "name": "Chocolate peel off mask", 
+        "skintype": "This product is for all skin types.",
+        "ingredients": "Aloe water extracts,Wheatgerm Water,Rose water,Coco powder , Pvk, PVA , Glycerine Alcohol"
+    },
+    {
+        "image":"./images/products/product.jpg",
+        "name": "Dead sea peel off mask", 
+        "skintype": "This product is for oily skin types.",
+        "ingredients": "Aloe water extracts,Wheatgerm Water , Rose water ,Dead mud ,Pvk ,PVA  ,Glycerine Alcohol"
+    },
+    {
+        "image":"./images/products/product.jpg",
+        "name": "Fruit  Peel off mask", 
+        "skintype": "Dry to normal skin type",
+        "ingredients": "Aloe water extracts ,Wheatgerm Water, Fruit water extracts ,Poliviynyl alcohol ,Propylene Glycol 1500,Dmdm hydantion,Laphen , Glycerine Alcohol"
+    },
+    {
+        "image":"./images/products/product.jpg",
+        "name": "Vitamin c peel off mask", 
+        "skintype": "This product is for all skin types.",
+        "ingredients": "Aloe water extracts ,Wheatgerm Water , Rose water ,Vitamin c powder ,Titinium dioxide ,Poliviynyl alcohol ,Polythylene Propylene glycol Glycol 1500 Dmdm hydantionLaphen Glycerine  Alcohol"
+    },
+    {
+        "image":"./images/products/product.jpg",
+        "name": "Whitening peel off mask", 
+        "skintype": "This product is for all skin types.",
+        "ingredients": "Aloe water extracts ,Wheatgerm Water ,Rose water ,Kojic acid ,Titanium dioxide, Poliviynyl alcoholPolythylene ,Propylene glycol ,Glycol 1500 ,Dmdm hydantion , Laphen ,Glycerine ,Alcohol"
     }
-    
 ]
