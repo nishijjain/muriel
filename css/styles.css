@@ -299,10 +299,6 @@ html {
         margin: 10px 0 0;
     }
 
-    .prod .card {
-        margin: 0px auto 30px;
-    }
-
     .big {
         display: none;
     }
@@ -310,6 +306,7 @@ html {
     .card {
         width: 20rem;
         margin: 0 auto;
+        height: 450px;
     }     
 }
 
