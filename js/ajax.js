@@ -16,7 +16,7 @@ function loadSites() {
                         $('#links').append(`
                         <div class="justify-content-center col-12 col-md-6 col-xl-4 my-4 mx-md-0">
                             <div class="card product-scrollable card-body h-100" >
-                            <img src="${obj[i].image}" alt="" style="width: 280px; height: 280px;"> 
+                            <img src="${obj[i].image}" class="product-image" alt="" style="width: 280px; height: 280px;"> 
                             <p><strong><center>${obj[i].name}</center></strong></p>
                             <p><strong>Skin Type : </strong> ${obj[i].skintype}</p>
                             <p><strong>Directions : </strong> ${obj[i].directions}</p>
@@ -29,7 +29,7 @@ function loadSites() {
                         $('#links').append(`
                         <div class="justify-content-center col-12 col-md-6 col-xl-4 my-4 mx-md-0">
                             <div class="card product-scrollable card-body h-100" >
-                            <img src="${obj[i].image}" alt="" style="width: 280px; height: 280px;">
+                            <img src="${obj[i].image}" class="product-image" alt="" style="width: 280px; height: 280px;">
                             <p><strong><center>${obj[i].name}</center></strong></p>
                             <p><strong>Skin Type : </strong> ${obj[i].skintype}</p>
                             <p><strong>Directions : </strong> ${obj[i].directions}</p>
@@ -57,7 +57,7 @@ function loadSites() {
                         $('#link').append(`
                         <div class="justify-content-center col-12 col-md-6 col-xl-4 my-4 mx-md-0">
                             <div class="card product-scrollable card-body h-100" >
-                            <img src="${obj[i].image}" alt="" style="width: 280px; height: 280px;"> 
+                            <img src="${obj[i].image}" class="product-image" alt="" style="width: 280px; height: 280px;"> 
                             <p><strong><center>${obj[i].name}</center></strong></p>
                             <p><strong>Skin Type : </strong> ${obj[i].skintype}</p>
                             <p><strong>Ingredients : </strong> ${obj[i].ingredients}</p>
@@ -68,7 +68,7 @@ function loadSites() {
                         $('#link').append(`
                         <div class="justify-content-center col-12 col-md-6 col-xl-4 my-4 mx-md-0">
                             <div class="card product-scrollable card-body h-100" >
-                            <img src="${obj[i].image}" alt="" style="width: 280px; height: 280px;">
+                            <img src="${obj[i].image}" class="product-image" alt="" style="width: 280px; height: 280px;">
                             <p><strong><center>${obj[i].name}</center></strong></p>
                             <p><strong>Skin Type : </strong> ${obj[i].skintype}</p>
                             <p><strong>Ingredients : </strong> ${obj[i].ingredients}</p>
