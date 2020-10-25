@@ -100,6 +100,13 @@ h2 {
     box-shadow: 8px 8px rgb(100,100,100);
 }
 
+.founder-image {
+    height: 300px;
+    width: 300px;
+    margin: 30px 0 0;
+    box-shadow: 8px 8px rgb(100,100,100);
+}
+
 .heading {
     padding: 20px 0;
     text-align: center;
@@ -119,9 +126,10 @@ h2 {
     background-attachment: fixed;
 }
 
-.collection a, .product a {
+.collection a, .product a, .about a {
     text-decoration: none;
     color: #fff;
+    font-size: 18px;
 }
 
 .photos {
@@ -256,11 +264,16 @@ html {
         text-align: left;
       } */
 
-    .about-image {
+    .about-image, .founder-image {
         width: 300px;
         height: 300px;
         text-align: center;
         margin: 0 15px 30px;
+    }
+
+    .product-image {
+        width: 300px;
+        height: 300px;
     }
 
     .photos {
