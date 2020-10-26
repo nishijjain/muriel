@@ -107,6 +107,12 @@ h2 {
     box-shadow: 8px 8px rgb(100,100,100);
 }
 
+.avatar {
+    margin: 30px auto 0;
+    width: 300px;
+    border-radius: 50%;
+}
+
 .heading {
     padding: 20px 0;
     text-align: center;
@@ -268,7 +274,7 @@ html {
         width: 300px;
         height: 300px;
         text-align: center;
-        margin: 0 15px 30px;
+        margin: 0 25px 30px;
     }
 
     .product-image {
@@ -321,6 +327,11 @@ html {
         margin: 0 auto;
         height: 450px;
     }     
-}
 
+    #carousel-testimonial {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+  
 
